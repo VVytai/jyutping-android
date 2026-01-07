@@ -288,7 +288,7 @@ private fun Researcher.search(keys: List<VirtualInputKey>, segmentation: Segment
                 val converted = Lexicon(text = item.text, romanization = item.romanization, input = text, mark = text, order = item.order)
                 val rawSyllable = item.romanization.filter { it.isLowercaseBasicLatinLetter }
                 if (rawSyllable.startsWith(text)) return@mapNotNull converted
-                val lastSyllable = item.romanization.split(PresetString.SPACE).lastOrNull()?.filter { it.isCantoneseToneDigit.negative } ?: return@mapNotNull null
+                val lastSyllable = item.romanization.split(PresetString.SPACE).lastOrNull()?.filterNot { it.isCantoneseToneDigit } ?: return@mapNotNull null
                 val tailSyllable = Segmenter.syllableText(keys = tail, db = db)
                 if (tailSyllable != null) {
                         return@mapNotNull if (lastSyllable == tailSyllable) converted else null
@@ -316,7 +316,7 @@ private fun Researcher.search(keys: List<VirtualInputKey>, segmentation: Segment
                 val tailLexicon = search(keys = tailKeys, segmentation = tailSegmentation, limit = 50, db = db).firstOrNull() ?: return@mapNotNull null
                 val headLexicon = fetched.firstOrNull { it.inputCount == headLength } ?: return@mapNotNull null
                 return@mapNotNull headLexicon + tailLexicon
-        }.distinct().sorted().take(1)
+        }.sorted().take(1)
         return concatenated + fetched
 }
 
@@ -357,11 +357,11 @@ private fun Researcher.processSlices(keys: List<VirtualInputKey>, text: String, 
                         .take(72)
                 return@flatMap spellMatched + anchorsMatched
         }
-        return entries.distinct().sorted()
+        return entries.sorted().distinct()
 }
 private fun Researcher.modify(item: Lexicon, keys: List<VirtualInputKey>, text: String, inputLength: Int, db: DatabaseHelper): Lexicon {
         if (inputLength <= 1) return item
-        if (item.inputCount != inputLength) return item
+        if (item.inputCount == inputLength) return item
         val converted = Lexicon(text = item.text, romanization = item.romanization, input = text, mark = text, order = item.order)
         if (item.romanization.filter { it.isLowercaseBasicLatinLetter }.startsWith(text)) return converted
         val lastSyllable = item.romanization.split(PresetString.SPACE).lastOrNull()?.filterNot { it.isCantoneseToneDigit } ?: return item

@@ -112,14 +112,13 @@ object Pinyin {
                         val headInputLength = headText.length
                         val tailText = text.drop(headInputLength)
                         val tailSegmentation = PinyinSegmentor.segment(tailText, db)
-                        val tailLexicon = process(tailText, tailSegmentation, db).firstOrNull()
-                        if (tailLexicon == null) continue
+                        val tailLexicon = process(tailText, tailSegmentation, db).firstOrNull() ?: continue
                         val headPinyinLexicon = primary.takeWhile { it.input == headText }.firstOrNull()
                         if (headPinyinLexicon == null) continue
                         val conjoined = headPinyinLexicon + tailLexicon
                         concatenated.add(conjoined)
                 }
-                val preferredConcatenated = concatenated.distinct().sorted().take(1)
+                val preferredConcatenated = concatenated.sorted().take(1)
                 return preferredConcatenated + primary
         }
         private fun query(text: String, schemes: List<List<String>>, db: DatabaseHelper): List<PinyinLexicon> {
