@@ -86,7 +86,7 @@ data class Stroke(
                         val code: Long = codes.decimalCombined()
                         return Stroke(word = word, stroke = strokeCodeText, complex = complex, spell = strokeText.hashCode(), code = code)
                 }
-                private val codeMap: HashMap<Char, Int> = hashMapOf(
+                private val codeMap: Map<Char, Int> = mapOf(
                         'w' to 1,
                         's' to 2,
                         'a' to 3,

@@ -2,7 +2,7 @@ package org.jyutping.jyutping.utilities
 
 object ShapeKeyMap {
         fun cangjieCode(letter: String): String? = cangjieMap[letter]
-        private val cangjieMap: HashMap<String, String> = hashMapOf(
+        private val cangjieMap: Map<String, String> = mapOf(
                 "a" to "日",
                 "b" to "月",
                 "c" to "金",
@@ -32,7 +32,7 @@ object ShapeKeyMap {
         )
 
         fun strokeCode(char: Char): Char? = strokeMap[char]
-        private val strokeMap: HashMap<Char, Char> = hashMapOf(
+        private val strokeMap: Map<Char, Char> = mapOf(
                 'w' to '⼀',
                 's' to '⼁',
                 'a' to '⼃',
@@ -42,7 +42,7 @@ object ShapeKeyMap {
         )
 
         fun keyStroke(letter: String): String? = keyStrokeMap[letter]
-        private val keyStrokeMap: HashMap<String, String> = hashMapOf(
+        private val keyStrokeMap: Map<String, String> = mapOf(
                 "w" to "⼀",
                 "s" to "⼁",
                 "a" to "⼃",
@@ -59,7 +59,7 @@ object ShapeKeyMap {
         )
 
         fun strokeTransform(text: String): String = text.mapNotNull { mapStrokeKey[it] }.joinToString(separator = "")
-        private val mapStrokeKey: HashMap<Char, Char> = hashMapOf(
+        private val mapStrokeKey: Map<Char, Char> = mapOf(
                 'w' to 'w',
                 'h' to 'w',
                 't' to 'w',

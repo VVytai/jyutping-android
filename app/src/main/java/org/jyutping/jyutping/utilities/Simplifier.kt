@@ -69,7 +69,7 @@ object Simplifier {
                 return Replaced(modified, matched, replacement)
         }
 
-        private val phrases: HashMap<String, String> = hashMapOf(
+        private val phrases: Map<String, String> = mapOf(
                 "一目瞭然" to "一目了然",
                 "上鍊" to "上链",
                 "不瞭解" to "不了解",

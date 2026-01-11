@@ -6,7 +6,7 @@ object HongKongVariantConverter {
 
         fun convert(text: String): String = text.map { variants[it] ?: it }.joinToString(separator = PresetString.EMPTY)
 
-        private val variants: HashMap<Char, Char> = hashMapOf(
+        private val variants: Map<Char, Char> = mapOf(
                 '僞' to '偽',
                 '兌' to '兑',
                 '叄' to '叁',

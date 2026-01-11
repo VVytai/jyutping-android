@@ -32,7 +32,7 @@ val Char.nineKenInterCode: Int?
         get() = CharCode.nineKeyCodeMap[this]
 
 private object CharCode {
-        val letterCodeMap: HashMap<Char, Int> = hashMapOf(
+        val letterCodeMap: Map<Char, Int> = mapOf(
                 'a' to 20,
                 'b' to 21,
                 'c' to 22,
@@ -60,7 +60,7 @@ private object CharCode {
                 'y' to 44,
                 'z' to 45,
         )
-        val nineKeyCodeMap: HashMap<Char, Int> = hashMapOf(
+        val nineKeyCodeMap: Map<Char, Int> = mapOf(
                 'a' to 2,
                 'b' to 2,
                 'c' to 2,

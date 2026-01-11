@@ -53,7 +53,9 @@ fun CantoneseScreen(navController: NavHostController) {
                                         .background(colorScheme.background)
                                         .fillMaxWidth()
                         ) {
-                                WebLinkLabel(icon = Icons.Outlined.Public, text = "懶音診療室 - PolyU", uri = "https://www.polyu.edu.hk/cbs/pronunciation")
+                                WebLinkLabel(icon = Icons.Outlined.Public, text = "懶音診療室 - PolyU", uri = "https://www.polyu.edu.hk/clc/pronunciation")
+                                EnhancedHorizontalDivider()
+                                WebLinkLabel(icon = Icons.Outlined.Public, text = "消滅錯別字 - PolyU", uri = "https://www.polyu.edu.hk/clc/typo")
                                 EnhancedHorizontalDivider()
                                 WebLinkLabel(icon = Icons.Outlined.Public, text = "粵語語氣詞", uri = "https://jyutping.org/blog/particles")
                                 EnhancedHorizontalDivider()
