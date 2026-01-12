@@ -285,7 +285,7 @@ private fun Researcher.search(keys: List<VirtualInputKey>, segmentation: Segment
         }.mapNotNull { item ->
                 val tail = keys.drop(item.inputCount - 1)
                 if (tail.size > 6) return@mapNotNull null
-                val converted = Lexicon(text = item.text, romanization = item.romanization, input = text, mark = text, order = item.order)
+                val converted by lazy { Lexicon(text = item.text, romanization = item.romanization, input = text, mark = text, order = item.order) }
                 val rawSyllable = item.romanization.filter { it.isLowercaseBasicLatinLetter }
                 if (rawSyllable.startsWith(text)) return@mapNotNull converted
                 val lastSyllable = item.romanization.split(PresetString.SPACE).lastOrNull()?.filterNot { it.isCantoneseToneDigit } ?: return@mapNotNull null
@@ -405,7 +405,7 @@ private fun DatabaseHelper.spellMatch(text: String, input: String, mark: String?
                 val order = cursor.getInt(0)
                 val word = cursor.getString(1)
                 val romanization = cursor.getString(2)
-                val markText = mark ?: romanization.filterNot { it.isDigit() }
+                val markText = mark ?: romanization.filterNot { it.isCantoneseToneDigit }
                 val instance = Lexicon(text = word, romanization = romanization, input = input, mark = markText, order = order)
                 instances.add(instance)
         }
@@ -422,7 +422,7 @@ private fun DatabaseHelper.strictMatch(anchors: Long, spell: Int, input: String,
                 val order = cursor.getInt(0)
                 val word = cursor.getString(1)
                 val romanization = cursor.getString(2)
-                val markText = mark ?: romanization.filterNot { it.isDigit() }
+                val markText = mark ?: romanization.filterNot { it.isCantoneseToneDigit }
                 val instance = Lexicon(text = word, romanization = romanization, input = input, mark = markText, order = order)
                 instances.add(instance)
         }

@@ -65,6 +65,12 @@ data class Candidate(
         /** isConcatenated. order > 1_000_000 */
         val isCompound: Boolean
                 get() = (order > 1_000_000)
+
+        val isIdealInputMemory: Boolean
+                get() = (order == -1)
+
+        val isNotIdealInputMemory: Boolean
+                get() = (order == -2)
 }
 
 fun Candidate.transformed(standard: CharacterStandard, db: DatabaseHelper): Candidate {

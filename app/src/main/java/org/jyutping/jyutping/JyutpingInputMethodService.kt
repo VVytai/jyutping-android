@@ -786,7 +786,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                                 val keys = newValue.map { it.key }
                                 val text = keys.joinToString(separator = PresetString.EMPTY) { it.text }
                                 val segmentation = Segmenter.segment(keys, db)
-                                val memory = if (isInputMemoryOn.value) userDB.suggest(text = text, segmentation = segmentation) else emptyList()
+                                val memory = if (isInputMemoryOn.value) userDB.search(keys = keys, text = text, segmentation = segmentation, db = db) else emptyList()
                                 val textMarks = if (isEmojiSuggestionsOn.value) db.fetchTextMarks(input = text) else emptyList()
                                 val symbols = if (isEmojiSuggestionsOn.value) db.searchSymbols(text = text, segmentation = segmentation) else emptyList()
                                 val queried = Researcher.suggest(keys = keys, segmentation = segmentation, db = db)
