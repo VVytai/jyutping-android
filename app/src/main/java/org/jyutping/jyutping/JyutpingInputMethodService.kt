@@ -867,7 +867,8 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                         if (item.type.isCantonese()) {
                                 selectedCandidates.add(item)
                         }
-                        var tail = bufferEvents.drop(item.inputCount)
+                        val inputLength: Int = item.input.replace(Regex("[456]"), "RR").length
+                        var tail = bufferEvents.drop(inputLength)
                         while (tail.firstOrNull()?.key?.isApostrophe ?: false) {
                                 tail = tail.drop(1)
                         }
