@@ -920,9 +920,9 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                         return
                 }
                 val imeOptions = currentInputEditorInfo.imeOptions
-                val shouldInputNewLine: Boolean = (imeOptions and EditorInfo.IME_FLAG_NO_ENTER_ACTION) == EditorInfo.IME_FLAG_NO_ENTER_ACTION
-                if (shouldInputNewLine){
-                        currentInputConnection.commitText(PresetString.NEW_LINE, 1)
+                val shouldSendEnterCode: Boolean = (imeOptions and EditorInfo.IME_FLAG_NO_ENTER_ACTION) == EditorInfo.IME_FLAG_NO_ENTER_ACTION
+                if (shouldSendEnterCode){
+                        sendDownUpKeyEvents(KeyEvent.KEYCODE_ENTER)
                         return
                 }
                 val hasActionLabel: Boolean = currentInputEditorInfo.actionLabel.isNullOrEmpty().not()
@@ -947,7 +947,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                         currentInputConnection.performEditorAction(action)
                         return
                 }
-                currentInputConnection.commitText(PresetString.NEW_LINE, 1)
+                sendDownUpKeyEvents(KeyEvent.KEYCODE_ENTER)
         }
         fun space() {
                 if (isBuffering.value) {
