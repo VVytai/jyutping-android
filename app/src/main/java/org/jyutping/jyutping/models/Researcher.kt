@@ -47,7 +47,7 @@ private fun Researcher.dispatch(keys: List<VirtualInputKey>, segmentation: Segme
                 else -> search(keys = syllableKeys, segmentation = segmentation, db = db)
         }
         val hasApostrophes = keys.any { it.isApostrophe }
-        val hasTones = keys.any { it.isToneEvent }
+        val hasTones = keys.any { it.isToneInputKey }
         return when {
                 hasApostrophes && hasTones -> {
                         val text = keys.joinToString(separator = PresetString.EMPTY) { it.text }

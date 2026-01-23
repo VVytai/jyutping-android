@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.feedback.SoundEffect
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.presets.PresetConstant
 import org.jyutping.jyutping.shapes.BubbleShape
 import org.jyutping.jyutping.shapes.LeftHalfBubbleShape
@@ -43,7 +43,7 @@ import org.jyutping.jyutping.utilities.ShapeKeyMap
 import org.jyutping.jyutping.utilities.ToolBox
 
 @Composable
-fun CangjieKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Horizontal = Alignment.CenterHorizontally) {
+fun CangjieKey(virtual: VirtualInputKey, modifier: Modifier, position: Alignment.Horizontal = Alignment.CenterHorizontally) {
         val view = LocalView.current
         val context = LocalContext.current as JyutpingInputMethodService
         val keyboardInterface by context.keyboardInterface.collectAsState()
@@ -51,8 +51,8 @@ fun CangjieKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hor
         val isHighContrastPreferred by context.isHighContrastPreferred.collectAsState()
         val showLowercaseKeys by context.showLowercaseKeys.collectAsState()
         val keyboardCase by context.keyboardCase.collectAsState()
-        val displayKeyLetter: String = if (showLowercaseKeys && keyboardCase.isLowercased) event.text else event.text.uppercase()
-        val keyRadical: String = ShapeKeyMap.cangjieCode(event.text) ?: event.text
+        val displayKeyLetter: String = if (showLowercaseKeys && keyboardCase.isLowercased) virtual.text else virtual.text.uppercase()
+        val keyRadical: String = ShapeKeyMap.cangjieCode(virtual.text) ?: virtual.text
         val shouldPreviewKey by context.previewKeyText.collectAsState()
         val density = LocalDensity.current
         var baseSize by remember { mutableStateOf(Size.Zero) }
@@ -70,7 +70,7 @@ fun CangjieKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hor
                                                 isPressing = false
                                         },
                                         onTap = {
-                                                context.handle(event)
+                                                context.handle(virtual)
                                         }
                                 )
                         }

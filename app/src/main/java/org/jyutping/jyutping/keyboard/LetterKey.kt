@@ -33,7 +33,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.feedback.SoundEffect
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.models.KeySide
 import org.jyutping.jyutping.models.TextCase
 import org.jyutping.jyutping.models.textCased
@@ -43,7 +43,7 @@ import org.jyutping.jyutping.shapes.HalfBubbleShape
 import org.jyutping.jyutping.utilities.ToolBox
 
 @Composable
-fun LetterKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Horizontal = Alignment.CenterHorizontally) {
+fun LetterKey(virtual: VirtualInputKey, modifier: Modifier, position: Alignment.Horizontal = Alignment.CenterHorizontally) {
         val view = LocalView.current
         val context = LocalContext.current as JyutpingInputMethodService
         val keyboardInterface by context.keyboardInterface.collectAsState()
@@ -69,7 +69,7 @@ fun LetterKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hori
                                                 isPressing = false
                                         },
                                         onTap = {
-                                                context.handle(event)
+                                                context.handle(virtual)
                                         }
                                 )
                         }
@@ -98,7 +98,7 @@ fun LetterKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hori
                         contentAlignment = Alignment.Center
                 ) {
                         Text(
-                                text = event.text.textCased(displayTextCase),
+                                text = virtual.text.textCased(displayTextCase),
                                 color = if (isDarkMode) Color.White else Color.Black,
                                 fontSize = 24.sp
                         )
@@ -141,7 +141,7 @@ fun LetterKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hori
                                         contentAlignment = Alignment.Center
                                 ) {
                                         Text(
-                                                text = event.text.textCased(displayTextCase),
+                                                text = virtual.text.textCased(displayTextCase),
                                                 modifier = Modifier.padding(bottom = (baseSize.height * 1.3F).dp),
                                                 color = if (isDarkMode) Color.White else Color.Black,
                                                 fontSize = 32.sp

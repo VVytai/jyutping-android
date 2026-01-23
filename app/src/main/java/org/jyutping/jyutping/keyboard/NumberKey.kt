@@ -33,7 +33,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.feedback.SoundEffect
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.models.KeySide
 import org.jyutping.jyutping.presets.PresetConstant
 import org.jyutping.jyutping.shapes.BubbleShape
@@ -41,7 +41,7 @@ import org.jyutping.jyutping.shapes.HalfBubbleShape
 import org.jyutping.jyutping.utilities.ToolBox
 
 @Composable
-fun NumberKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Horizontal = Alignment.CenterHorizontally) {
+fun NumberKey(virtual: VirtualInputKey, modifier: Modifier, position: Alignment.Horizontal = Alignment.CenterHorizontally) {
         val view = LocalView.current
         val context = LocalContext.current as JyutpingInputMethodService
         val keyboardInterface by context.keyboardInterface.collectAsState()
@@ -64,7 +64,7 @@ fun NumberKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hori
                                                 isPressing = false
                                         },
                                         onTap = {
-                                                context.handle(event)
+                                                context.handle(virtual)
                                         }
                                 )
                         }
@@ -93,7 +93,7 @@ fun NumberKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hori
                         contentAlignment = Alignment.Center
                 ) {
                         Text(
-                                text = event.text,
+                                text = virtual.text,
                                 color = if (isDarkMode) Color.White else Color.Black,
                                 fontSize = 24.sp
                         )
@@ -136,7 +136,7 @@ fun NumberKey(event: InputKeyEvent, modifier: Modifier, position: Alignment.Hori
                                         contentAlignment = Alignment.Center
                                 ) {
                                         Text(
-                                                text = event.text,
+                                                text = virtual.text,
                                                 modifier = Modifier.padding(bottom = (baseSize.height * 1.3F).dp),
                                                 color = if (isDarkMode) Color.White else Color.Black,
                                                 fontSize = 32.sp

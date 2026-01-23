@@ -64,7 +64,6 @@ import org.jyutping.jyutping.models.Structure
 import org.jyutping.jyutping.keyboard.transformed
 import org.jyutping.jyutping.models.BasicInputEvent
 import org.jyutping.jyutping.models.Converter
-import org.jyutping.jyutping.models.InputKeyEvent
 import org.jyutping.jyutping.models.Researcher
 import org.jyutping.jyutping.models.Segmenter
 import org.jyutping.jyutping.models.VirtualInputKey
@@ -260,7 +259,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
         }
 
         // Last physical key pressed (for UI preview)
-        val lastPhysicalKey: MutableStateFlow<InputKeyEvent?> by lazy { MutableStateFlow(null) }
+        val lastPhysicalKey: MutableStateFlow<VirtualInputKey?> by lazy { MutableStateFlow(null) }
 
         // Candidate offset for physical keyboard number selection (tracks which group of 3 to show 7-9)
         val candidateOffset: MutableStateFlow<Int> by lazy { MutableStateFlow(0) }
@@ -268,7 +267,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
         // Track if a key was pressed while Shift was down (to distinguish Shift-only press from Shift+Key)
         private var keyPressedDuringShift = false
 
-        private fun emitPhysicalKeyPreview(inputKey: InputKeyEvent) {
+        private fun emitPhysicalKeyPreview(inputKey: VirtualInputKey) {
                 lastPhysicalKey.value = inputKey
                 // audio/haptic feedback
                 audioFeedback(SoundEffect.Click)
@@ -1137,7 +1136,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                                         currentInputConnection.commitText(char, 1)
                                 }
                                 InputMethodMode.Cantonese -> {
-                                        // For lowercase letters, try using the mapped InputKeyEvent
+                                        // For lowercase letters, try using the mapped VirtualInputKey
                                         val mapped = if (char.length == 1 && char[0] in 'a'..'z') {
                                                 PhysicalKeyMapper.map(event.keyCode)
                                         } else null
@@ -1158,7 +1157,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                 }
 
                 // Map printable keys using PhysicalKeyMapper
-                val mapped: InputKeyEvent? = PhysicalKeyMapper.map(event.keyCode)
+                val mapped: VirtualInputKey? = PhysicalKeyMapper.map(event.keyCode)
                 if (mapped != null) {
                         // Mark that a key was pressed while Shift is down (for Shift toggle detection)
                         if (event.isShiftPressed) {

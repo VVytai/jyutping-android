@@ -40,7 +40,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.feedback.SoundEffect
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.models.KeyModel
 import org.jyutping.jyutping.models.KeySide
 import org.jyutping.jyutping.models.TextCase
@@ -56,7 +56,7 @@ import kotlin.math.min
 @Composable
 fun EdgeEnhancedInputKey(
         side: KeySide = KeySide.Left,
-        event: InputKeyEvent? = null,
+        virtual: VirtualInputKey? = null,
         keyModel: KeyModel,
         modifier: Modifier
 ) {
@@ -92,8 +92,8 @@ fun EdgeEnhancedInputKey(
                                                 if (isSelected) {
                                                         isSelected = false
                                                 } else {
-                                                        if (event != null) {
-                                                                context.handle(event)
+                                                        if (virtual != null) {
+                                                                context.handle(virtual)
                                                         } else {
                                                                 val text: String = keyModel.primary.text.textCased(keyboardCase.textCase)
                                                                 context.process(text)

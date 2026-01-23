@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.extensions.toCharText
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.models.KeyElement
 import org.jyutping.jyutping.models.KeyModel
 import org.jyutping.jyutping.models.KeySide
@@ -63,7 +63,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                 ) {
                         EdgeEnhancedInputKey(
                                 side = KeySide.Left,
-                                event = InputKeyEvent.number1,
+                                virtual = VirtualInputKey.number1,
                                 keyModel = KeyModel(
                                         primary = KeyElement("1"),
                                         members = listOf(
@@ -79,7 +79,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Left,
-                                event = InputKeyEvent.number2,
+                                virtual = VirtualInputKey.number2,
                                 keyModel = KeyModel(
                                         primary = KeyElement("2"),
                                         members = listOf(
@@ -95,7 +95,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Left,
-                                event = InputKeyEvent.number3,
+                                virtual = VirtualInputKey.number3,
                                 keyModel = KeyModel(
                                         primary = KeyElement("3"),
                                         members = listOf(
@@ -111,7 +111,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Left,
-                                event = InputKeyEvent.number4,
+                                virtual = VirtualInputKey.number4,
                                 keyModel = KeyModel(
                                         primary = KeyElement("4"),
                                         members = listOf(
@@ -127,7 +127,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Left,
-                                event = InputKeyEvent.number5,
+                                virtual = VirtualInputKey.number5,
                                 keyModel = KeyModel(
                                         primary = KeyElement("5"),
                                         members = listOf(
@@ -143,7 +143,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Right,
-                                event = InputKeyEvent.number6,
+                                virtual = VirtualInputKey.number6,
                                 keyModel = KeyModel(
                                         primary = KeyElement("6"),
                                         members = listOf(
@@ -159,7 +159,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Right,
-                                event = InputKeyEvent.number7,
+                                virtual = VirtualInputKey.number7,
                                 keyModel = KeyModel(
                                         primary = KeyElement("7"),
                                         members = listOf(
@@ -175,7 +175,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Right,
-                                event = InputKeyEvent.number8,
+                                virtual = VirtualInputKey.number8,
                                 keyModel = KeyModel(
                                         primary = KeyElement("8"),
                                         members = listOf(
@@ -191,7 +191,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EnhancedInputKey(
                                 side = KeySide.Right,
-                                event = InputKeyEvent.number9,
+                                virtual = VirtualInputKey.number9,
                                 keyModel = KeyModel(
                                         primary = KeyElement("9"),
                                         members = listOf(
@@ -207,7 +207,7 @@ fun CantoneseNumericKeyboard(keyHeight: Dp) {
                         )
                         EdgeEnhancedInputKey(
                                 side = KeySide.Right,
-                                event = InputKeyEvent.number0,
+                                virtual = VirtualInputKey.number0,
                                 keyModel = KeyModel(
                                         primary = KeyElement("0"),
                                         members = listOf(

@@ -18,7 +18,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import org.jyutping.jyutping.JyutpingInputMethodService
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.models.KeyboardForm
 import org.jyutping.jyutping.presets.AltPresetColor
 import org.jyutping.jyutping.presets.PresetColor
@@ -62,16 +62,16 @@ fun StrokeKeyboard(keyHeight: Dp) {
                                 .fillMaxWidth()
                                 .height(keyHeight)
                 ) {
-                        StrokeKey(event = InputKeyEvent.letterQ, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterW, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterE, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterR, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterT, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterY, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterU, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterI, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterO, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterP, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterQ, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterW, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterE, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterR, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterT, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterY, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterU, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterI, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterO, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterP, modifier = Modifier.weight(1f))
                 }
                 Row(
                         modifier = Modifier
@@ -79,15 +79,15 @@ fun StrokeKeyboard(keyHeight: Dp) {
                                 .height(keyHeight)
                 ) {
                         Spacer(modifier = Modifier.weight(0.5f))
-                        StrokeKey(event = InputKeyEvent.letterA, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterS, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterD, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterF, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterG, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterH, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterJ, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterK, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterL, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterA, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterS, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterD, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterF, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterG, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterH, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterJ, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterK, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterL, modifier = Modifier.weight(1f))
                         Spacer(modifier = Modifier.weight(0.5f))
                 }
                 Row(
@@ -97,13 +97,13 @@ fun StrokeKeyboard(keyHeight: Dp) {
                 ) {
                         ShiftKey(modifier = Modifier.weight(1.3f))
                         Spacer(modifier = Modifier.weight(0.2f))
-                        StrokeKey(event = InputKeyEvent.letterZ, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterX, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterC, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterV, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterB, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterN, modifier = Modifier.weight(1f))
-                        StrokeKey(event = InputKeyEvent.letterM, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterZ, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterX, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterC, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterV, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterB, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterN, modifier = Modifier.weight(1f))
+                        StrokeKey(virtual = VirtualInputKey.letterM, modifier = Modifier.weight(1f))
                         Spacer(modifier = Modifier.weight(0.2f))
                         BackspaceKey(modifier = Modifier.weight(1.3f))
                 }

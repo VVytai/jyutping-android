@@ -7,8 +7,8 @@ data class Syllable(
         val originCode: Long
 ) : Comparable<Syllable> {
 
-        val alias: List<InputKeyEvent> = aliasCode.matchedVirtualInputKeys
-        val origin: List<InputKeyEvent> = originCode.matchedVirtualInputKeys
+        val alias: List<VirtualInputKey> = aliasCode.matchedVirtualInputKeys
+        val origin: List<VirtualInputKey> = originCode.matchedVirtualInputKeys
 
         val aliasText: String
                 get() = alias.joinToString(PresetString.EMPTY) { it.text }

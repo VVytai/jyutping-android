@@ -34,14 +34,14 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.feedback.SoundEffect
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.presets.PresetConstant
 import org.jyutping.jyutping.shapes.BubbleShape
 import org.jyutping.jyutping.utilities.ShapeKeyMap
 import org.jyutping.jyutping.utilities.ToolBox
 
 @Composable
-fun StrokeKey(event: InputKeyEvent, modifier: Modifier) {
+fun StrokeKey(virtual: VirtualInputKey, modifier: Modifier) {
         val view = LocalView.current
         val context = LocalContext.current as JyutpingInputMethodService
         val keyboardInterface by context.keyboardInterface.collectAsState()
@@ -50,8 +50,8 @@ fun StrokeKey(event: InputKeyEvent, modifier: Modifier) {
         val keyboardCase by context.keyboardCase.collectAsState()
         val showLowercaseKeys by context.showLowercaseKeys.collectAsState()
         val shouldPreviewKey by context.previewKeyText.collectAsState()
-        val displayKeyLetter: String = if (showLowercaseKeys && keyboardCase.isLowercased) event.text else event.text.uppercase()
-        val keyStroke: String? = ShapeKeyMap.keyStroke(event.text)
+        val displayKeyLetter: String = if (showLowercaseKeys && keyboardCase.isLowercased) virtual.text else virtual.text.uppercase()
+        val keyStroke: String? = ShapeKeyMap.keyStroke(virtual.text)
         val density = LocalDensity.current
         var baseSize by remember { mutableStateOf(Size.Zero) }
         var isPressing by remember { mutableStateOf(false) }
@@ -68,7 +68,7 @@ fun StrokeKey(event: InputKeyEvent, modifier: Modifier) {
                                                 isPressing = false
                                         },
                                         onTap = {
-                                                context.handle(event)
+                                                context.handle(virtual)
                                         }
                                 )
                         }

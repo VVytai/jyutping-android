@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import org.jyutping.jyutping.JyutpingInputMethodService
 import org.jyutping.jyutping.extensions.toCharText
-import org.jyutping.jyutping.models.InputKeyEvent
+import org.jyutping.jyutping.models.VirtualInputKey
 import org.jyutping.jyutping.models.KeyElement
 import org.jyutping.jyutping.models.KeyModel
 import org.jyutping.jyutping.models.KeySide
@@ -60,18 +60,18 @@ fun NumericKeyboard(keyHeight: Dp) {
                                 .height(keyHeight)
                                 .fillMaxWidth()
                 ) {
-                        NumberKey(InputKeyEvent.number1, modifier = Modifier.weight(1f), position = Alignment.Start)
-                        NumberKey(InputKeyEvent.number2, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number3, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number4, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number5, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number6, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number7, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number8, modifier = Modifier.weight(1f))
-                        NumberKey(InputKeyEvent.number9, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number1, modifier = Modifier.weight(1f), position = Alignment.Start)
+                        NumberKey(VirtualInputKey.number2, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number3, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number4, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number5, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number6, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number7, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number8, modifier = Modifier.weight(1f))
+                        NumberKey(VirtualInputKey.number9, modifier = Modifier.weight(1f))
                         EdgeEnhancedInputKey(
                                 side = KeySide.Right,
-                                event = InputKeyEvent.number0,
+                                virtual = VirtualInputKey.number0,
                                 keyModel = KeyModel(
                                         primary = KeyElement("0"),
                                         members = listOf(
