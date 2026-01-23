@@ -1,6 +1,5 @@
 plugins {
         id("com.android.application")
-        id("org.jetbrains.kotlin.android")
         id("org.jetbrains.kotlin.plugin.compose")
         id("org.jetbrains.kotlin.plugin.serialization")
 }
@@ -34,9 +33,6 @@ android {
                 sourceCompatibility = JavaVersion.VERSION_21
                 targetCompatibility = JavaVersion.VERSION_21
         }
-        kotlin {
-                jvmToolchain(21)
-        }
         buildFeatures {
                 compose = true
                 buildConfig = true
@@ -51,8 +47,11 @@ java {
                 languageVersion.set(JavaLanguageVersion.of(21))
         }
 }
+kotlin {
+        jvmToolchain(21)
+}
 
-val composeVersion = "1.10.0"
+val composeVersion = "1.10.1"
 dependencies {
         implementation("androidx.activity:activity-compose:1.12.2")
         implementation("androidx.activity:activity-ktx:1.12.2")
@@ -66,7 +65,7 @@ dependencies {
         implementation("androidx.navigation:navigation-compose:2.9.6")
         implementation("com.louiscad.splitties:splitties-systemservices:3.0.0")
         implementation("com.louiscad.splitties:splitties-views:3.0.0")
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0")
         testImplementation("org.junit.jupiter:junit-jupiter-api:6.0.2")
         androidTestImplementation("androidx.test.ext:junit:1.3.0")
         androidTestImplementation("androidx.test.espresso:espresso-core:3.7.0")
