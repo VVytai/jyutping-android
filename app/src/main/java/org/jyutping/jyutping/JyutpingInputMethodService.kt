@@ -261,7 +261,7 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
         // Last physical key pressed (for UI preview)
         val lastPhysicalKey: MutableStateFlow<VirtualInputKey?> by lazy { MutableStateFlow(null) }
 
-        // Candidate offset for physical keyboard number selection (tracks which group of 3 to show 7-9)
+        // Candidate offset for physical keyboard number selection
         val candidateOffset: MutableStateFlow<Int> by lazy { MutableStateFlow(0) }
 
         // Track if a key was pressed while Shift was down (to distinguish Shift-only press from Shift+Key)
@@ -1003,17 +1003,17 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                         return false // Let system handle
                 }
 
-                // Handle Tab key to cycle through candidate groups (for number selection 7-9)
+                // Handle Tab key to cycle through candidate groups (for number selection 0-9)
                 if (event.keyCode == KeyEvent.KEYCODE_TAB) {
                         if (event.isShiftPressed) keyPressedDuringShift = true
 
                         val candidateCount = candidates.value.size
                         if (candidateCount > 0) {
                                 if (event.isShiftPressed) {
-                                        // Shift+Tab: go back 3 candidates
+                                        // Shift+Tab: go back 10 candidates
                                         val currentOffset = candidateOffset.value
                                         if (currentOffset > 0) {
-                                                val newOffset = maxOf(0, currentOffset - 3)
+                                                val newOffset = maxOf(0, currentOffset - 10)
                                                 candidateOffset.value = newOffset
                                                 audioFeedback(SoundEffect.Click)
                                                 return true
@@ -1021,8 +1021,8 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                                         // At index 0, do nothing
                                         return true
                                 } else {
-                                        // Tab: move to next group of 3
-                                        val newOffset = candidateOffset.value + 3
+                                        // Tab: move to next group of 10
+                                        val newOffset = candidateOffset.value + 10
                                         candidateOffset.value = if (newOffset >= candidateCount) 0 else newOffset
                                         audioFeedback(SoundEffect.Click)
                                         return true
@@ -1031,31 +1031,26 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                         return false
                 }
 
-                // Handle number keys 7-9 to select candidates, as jyutping does use tone 7-9, only tone 1-6 are used
-                when (event.keyCode) {
-                        KeyEvent.KEYCODE_7 -> {
-                                if (event.isShiftPressed) keyPressedDuringShift = true
-                                val index = candidateOffset.value
-                                if (index < candidates.value.size) {
-                                        selectCandidate(index = index)
-                                        return true
-                                }
-                        }
-                        KeyEvent.KEYCODE_8 -> {
-                                if (event.isShiftPressed) keyPressedDuringShift = true
-                                val index = candidateOffset.value + 1
-                                if (index < candidates.value.size) {
-                                        selectCandidate(index = index)
-                                        return true
-                                }
-                        }
-                        KeyEvent.KEYCODE_9 -> {
-                                if (event.isShiftPressed) keyPressedDuringShift = true
-                                val index = candidateOffset.value + 2
-                                if (index < candidates.value.size) {
-                                        selectCandidate(index = index)
-                                        return true
-                                }
+                // Handle number keys 0-9 to select candidates (0 for 10th candidate)
+                val digitOffset = when (event.keyCode) {
+                        KeyEvent.KEYCODE_1 -> 0
+                        KeyEvent.KEYCODE_2 -> 1
+                        KeyEvent.KEYCODE_3 -> 2
+                        KeyEvent.KEYCODE_4 -> 3
+                        KeyEvent.KEYCODE_5 -> 4
+                        KeyEvent.KEYCODE_6 -> 5
+                        KeyEvent.KEYCODE_7 -> 6
+                        KeyEvent.KEYCODE_8 -> 7
+                        KeyEvent.KEYCODE_9 -> 8
+                        KeyEvent.KEYCODE_0 -> 9
+                        else -> null
+                }
+                if (digitOffset != null) {
+                        if (event.isShiftPressed) keyPressedDuringShift = true
+                        val index = candidateOffset.value + digitOffset
+                        if (index < candidates.value.size) {
+                                selectCandidate(index = index)
+                                return true
                         }
                 }
 

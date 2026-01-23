@@ -92,14 +92,6 @@ fun PhysicalKeyboardCandidateBar(height: Dp) {
                                 verticalAlignment = Alignment.CenterVertically
                         ) {
                                 itemsIndexed(candidates) { index, candidate ->
-                                        // Show number labels 7-9 for the current group of 3 candidates
-                                        val numberLabel = when {
-                                                index == candidateOffset -> "7"
-                                                index == candidateOffset + 1 -> "8"
-                                                index == candidateOffset + 2 -> "9"
-                                                else -> null
-                                        }
-
                                         CandidateView(
                                                 candidateState = candidateState,
                                                 candidate = candidate,
@@ -115,7 +107,11 @@ fun PhysicalKeyboardCandidateBar(height: Dp) {
                                                         view.performHapticFeedback(HapticFeedbackConstants.LONG_PRESS)
                                                         context.forgetCandidate(index = index)
                                                 },
-                                                numberLabel = numberLabel
+                                                numberLabel = when (index) {
+                                                        in 0..8 -> (index + 1).toString()
+                                                        9 -> "0"
+                                                        else -> null
+                                                }
                                         )
                                 }
                         }
