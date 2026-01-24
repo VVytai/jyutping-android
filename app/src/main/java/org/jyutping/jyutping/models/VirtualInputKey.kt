@@ -136,12 +136,15 @@ data class VirtualInputKey(
                         letterV, letterW, letterX, letterY, letterZ
                 )
 
-                fun matchVirtualInputKey(code: Int): VirtualInputKey? {
-                        return alphabetSet.firstOrNull { it.code == code } ?: digitSet.firstOrNull { it.code == code }
-                }
+                fun matchVirtualInputKey(code: Int): VirtualInputKey? = alphabetSet.firstOrNull { it.code == code } ?: digitSet.firstOrNull { it.code == code }
                 fun matchVirtualInputKey(char: Char): VirtualInputKey? {
                         val code = char.interCode ?: return null
                         return alphabetSet.firstOrNull { it.code == code } ?: digitSet.firstOrNull { it.code == code }
+                }
+                fun matchVirtualKey(eventCode: Int): VirtualInputKey? = when (eventCode) {
+                        grave.keyCode -> grave
+                        apostrophe.keyCode -> apostrophe
+                        else -> alphabetSet.firstOrNull { it.keyCode == eventCode } ?: toneSet.firstOrNull { it.keyCode == eventCode }
                 }
         }
 }

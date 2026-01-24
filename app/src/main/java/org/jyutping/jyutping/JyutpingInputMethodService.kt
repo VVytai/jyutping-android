@@ -38,6 +38,7 @@ import org.jyutping.jyutping.extensions.convertedS2T
 import org.jyutping.jyutping.extensions.convertedT2S
 import org.jyutping.jyutping.extensions.formattedCodePointText
 import org.jyutping.jyutping.extensions.generateSymbol
+import org.jyutping.jyutping.extensions.isBasicLatinLetter
 import org.jyutping.jyutping.extensions.markFormatted
 import org.jyutping.jyutping.extensions.negative
 import org.jyutping.jyutping.extensions.toneConverted
@@ -53,7 +54,6 @@ import org.jyutping.jyutping.models.KeyboardForm
 import org.jyutping.jyutping.models.KeyboardInterface
 import org.jyutping.jyutping.models.KeyboardLayout
 import org.jyutping.jyutping.keyboard.NumericLayout
-import org.jyutping.jyutping.keyboard.PhysicalKeyMapper
 import org.jyutping.jyutping.keyboard.Pinyin
 import org.jyutping.jyutping.keyboard.PinyinSegmentor
 import org.jyutping.jyutping.keyboard.QwertyForm
@@ -1122,37 +1122,30 @@ class JyutpingInputMethodService: LifecycleInputMethodService(),
                                 showPhysicalKeyboardCandidates()
                         }
 
-                        val char = unicodeChar.toChar().toString()
-
                         // In ABC mode, commit the character directly
                         // In Cantonese mode, for letters a-z try to use the IME handler
                         when (inputMethodMode.value) {
                                 InputMethodMode.ABC -> {
-                                        currentInputConnection.commitText(char, 1)
+                                        val text = unicodeChar.toChar().toString()
+                                        currentInputConnection.commitText(text, 1)
                                 }
                                 InputMethodMode.Cantonese -> {
-                                        // For lowercase letters, try using the mapped VirtualInputKey
-                                        val mapped = if (char.length == 1 && char[0] in 'a'..'z') {
-                                                PhysicalKeyMapper.map(event.keyCode)
-                                        } else null
-
+                                        val char = unicodeChar.toChar()
+                                        val mapped = if (char.isBasicLatinLetter) VirtualInputKey.matchVirtualKey(eventCode = event.keyCode) else null
                                         if (mapped != null) {
                                                 // Feed into existing IME handler for Cantonese input
                                                 handle(mapped)
                                         } else {
                                                 // For symbols and other characters, commit directly
-                                                currentInputConnection.commitText(char, 1)
+                                                currentInputConnection.commitText(char.toString(), 1)
                                         }
                                 }
                         }
-
-                        // Emit feedback
                         audioFeedback(SoundEffect.Click)
                         return true
                 }
 
-                // Map printable keys using PhysicalKeyMapper
-                val mapped: VirtualInputKey? = PhysicalKeyMapper.map(event.keyCode)
+                val mapped: VirtualInputKey? = VirtualInputKey.matchVirtualKey(eventCode = event.keyCode)
                 if (mapped != null) {
                         // Mark that a key was pressed while Shift is down (for Shift toggle detection)
                         if (event.isShiftPressed) {
