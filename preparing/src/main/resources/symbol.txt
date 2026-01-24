@@ -54,6 +54,8 @@
 1	140000	1F979	想喊	soeng2 haam3
 1	140000	1F979	感動	gam2 dung6
 1	140000	1F979	淚眼汪汪	leoi6 ngaan5 wong1 wong1
+1	140000	1F979	淚眼	leoi6 ngaan5
+1	140000	1F979	流淚眼	lau4 leoi6 ngaan5
 1	110000	1F605	流汗笑	lau4 hon6 siu3
 1	110000	1F605	流汗	lau4 hon6
 1	110000	1F605	尷尬	gaam1 gaai3
@@ -91,6 +93,7 @@
 1	110000	1F643	顛倒	din1 dou2
 1	110000	1F609	得意洋洋	dak1 ji3 joeng4 joeng4
 1	110000	1F609	調皮	tiu4 pei4
+1	110000	1F609	頑皮	waan4 pei4
 1	110000	1F609	䁪單眼	zaam2 daan1 ngaan5
 1	110000	1F609	眨單眼	zaam2 daan1 ngaan5
 1	110000	1F609	眨單眼	zaap3 daan1 ngaan5
@@ -116,6 +119,7 @@
 1	110000	1F970	歡喜	fun1 hei2
 1	110000	1F970	喜歡	hei2 fun1
 1	110000	1F970	心心心	sam1 sam1 sam1
+1	110000	1F970	好靚	hou2 leng3
 1	110000	1F60D	迷戀	mai4 lyun2
 1	110000	1F60D	花癡	faa1 ci1
 1	110000	1F60D	鍾意	zung1 ji3
@@ -154,7 +158,6 @@
 1	110000	1F619	𡃶𡃶	sek3 sek3
 1	110000	1F619	𡃶	sek3
 1	110000	1F619	𡃶啖	sek3 daam6
-1	110000	1F60B	伸脷	san1 lei6
 1	110000	1F60B	想食	soeng2 sik6
 1	110000	1F60B	想喫	soeng2 jaak3
 1	110000	1F60B	好食	hou2 sik6
@@ -175,8 +178,12 @@
 1	110000	1F61D	唔制	m4 zai3
 1	110000	1F61C	扮鬼面	baan6 gwai2 min6
 1	110000	1F61C	調皮	tiu4 pei4
+1	110000	1F61C	頑皮	waan4 pei4
+1	110000	1F61C	淘氣	tou4 hei3
 1	110000	1F61C	曳曳	jai1 jai1
 1	110000	1F92A	調皮	tiu4 pei4
+1	110000	1F92A	頑皮	waan4 pei4
+1	110000	1F92A	淘氣	tou4 hei3
 1	110000	1F92A	曳曳	jai1 jai1
 1	110000	1F928	面目猙獰	min6 muk6 zang1 ning4
 1	110000	1F928	猙獰	zang1 ning4
@@ -192,12 +199,15 @@
 1	110000	1F913	戴眼鏡	daai3 ngaan5 geng3
 1	110000	1F913	眼鏡	ngaan5 geng3
 1	110000	1F913	眼鏡	ngaan5 geng2
+1	110000	1F913	眼鏡仔	ngaan5 geng3 zai2
 1	110000	1F913	哨牙	saau3 ngaa4
 1	110000	1F913	書呆子	syu1 ngoi4 zi2
 1	110000	1F913	書呆子	syu1 daai1 zi2
 1	110000	1F913	做題家	zou6 tai4 gaa1
+1	110000	1F913	做題蛆	zou6 tai4 ceoi1
 1	110000	1F913	四眼	sei3 ngaan5
 1	110000	1F913	四眼仔	sei3 ngaan5 zai2
+1	110000	1F913	四眼狗	sei3 ngaan5 gau2
 1	110000	1F60E	墨鏡	mak6 geng3
 1	110000	1F60E	墨超	mak6 ciu1
 1	110000	1F60E	型	jing4
@@ -207,7 +217,6 @@
 1	110000	1F929	開心	hoi1 sam1
 1	110000	1F929	好開心	hou2 hoi1 sam1
 1	110000	1F929	好嘢	hou2 je5
-1	110000	1F929	正	zing3
 1	110000	1F929	正	zeng3
 1	110000	1F929	哇	waa1
 1	110000	1F929	驚喜	ging1 hei2
@@ -408,6 +417,7 @@
 1	110000	1F917	抱抱	pou5 pou5
 1	110000	1F917	自鳴得意	zi6 ming4 dak1 ji3
 1	110000	1F917	得意洋洋	dak1 ji3 joeng4 joeng4
+1	110000	1F917	完美	jyun4 mei5
 1	110000	1F914	思考	si1 haau2
 1	110000	1F914	若有所思	joek6 jau5 so2 si1
 1	110000	1F914	諗	nam2
@@ -461,6 +471,7 @@
 1	110000	1F611	冇眼睇	mou5 ngaan5 tai2
 1	110000	1F611	眯埋眼	mei1 maai4 ngaan5
 1	110000	1F611	眯眼	mei1 ngaan5
+1	110000	1F611	無奈	mou4 noi6
 1	150000	1FAE8	頭震	tau4 zan3
 1	150000	1FAE8	面震	min6 zan3
 1	150000	1FAE8	模糊	mou4 wu4
@@ -551,6 +562,7 @@
 1	110000	1F62E.200D.1F4A8	抵力	dai2 lik6
 1	110000	1F62E.200D.1F4A8	好抵力	hou2 dai2 lik6
 1	110000	1F62E.200D.1F4A8	疲憊	pei4 bei6
+1	110000	1F62E.200D.1F4A8	無奈	mou4 noi6
 1	110000	1F635	頭暈眼花	tau4 wan4 ngaan5 faa1
 1	110000	1F635	頭暈	tau4 wan4
 1	110000	1F635.200D.1F4AB	頭暈眼花	tau4 wan4 ngaan5 faa1
@@ -603,12 +615,21 @@
 1	110000	1F608	邪惡	ce4 ok3
 1	110000	1F608	奸笑	gaan1 siu3
 1	110000	1F608	得戚	dak1 cik1
+1	110000	1F608	好玩	hou2 waan2
+1	110000	1F608	整蠱	zing2 gu2
+1	110000	1F608	整蠱作怪	zing2 gu2 zok3 gwaai3
+1	110000	1F608	攪攪震	gaau2 gaau2 zan3
+1	110000	1F608	調皮	tiu4 pei4
+1	110000	1F608	頑皮	waan4 pei4
+1	110000	1F608	淘氣	tou4 hei3
+1	110000	1F608	戲耍	hei3 saa2
 1	110000	1F608	奸詐	gaan1 zaa3
 1	110000	1F608	奸險	gaan1 him2
 1	110000	1F608	奸狡	gaan1 gaau2
 1	110000	1F608	奸計	gaan1 gai3
 1	110000	1F608	奸	gaan1
 1	110000	1F608	陰	jam1
+1	110000	1F608	陰溼	jam1 sap1
 1	110000	1F47F	惡魔	ok3 mo1
 1	110000	1F47F	邪惡	ce4 ok3
 1	110000	1F479	惡鬼	ok3 gwai2
@@ -633,9 +654,20 @@
 1	110000	1F480	骷髏頭	fu1 lou4 tau4
 1	110000	1F480	骷髏頭骨	fu1 lou4 tau4 gwat1
 1	110000	1F480	骷髏	fu1 lau4
+1	110000	1F480	弊	bai6
+1	110000	1F480	弊家伙	bai6 gaa1 fo2
+1	110000	1F480	大鑊	daai6 wok6
+1	110000	1F480	衰	seoi1
+1	110000	1F480	死亡	sei2 mong4
+1	110000	1F480	死	sei2
+1	110000	1F480	死火	sei2 fo2
 1	110000	2620.FE0F	骷髏	fu1 lau4
 1	110000	2620.FE0F	有毒	jau5 duk6
+1	110000	2620.FE0F	毒害	duk6 hoi6
 1	110000	2620.FE0F	致命	zi3 ming6
+1	110000	2620.FE0F	致死	zi3 sei2
+1	110000	2620.FE0F	死亡	sei2 mong4
+1	110000	2620.FE0F	死	sei2
 1	110000	1F47D	外星人	ngoi6 sing1 jan4
 1	110000	1F47D	火星人	fo2 sing1 jan4
 1	110000	1F47E	怪獸	gwaai3 sau3
@@ -677,7 +709,6 @@
 1	110000	1F44D	大拇指	daai6 mou5 zi2
 1	110000	1F44D	豎拇指	syu6 mou5 zi2
 1	110000	1F44D	犀利	sai1 lei6
-1	110000	1F44D	正	zing3
 1	110000	1F44D	正	zeng3
 1	110000	1F44D	稱讚	cing1 zaan3
 1	110000	1F44D	讚	zaan3
@@ -765,12 +796,15 @@
 1	110000	1F449	右指	jau6 zi2
 1	110000	1F449	指右	zi2 jau6
 1	110000	1F449	向右	hoeng3 jau6
+1	110000	1F449	指向	zi2 hoeng3
+1	110000	1F449	指出	zi2 ceot1
 1	110000	1F449	指示	zi2 si6
 1	110000	1F449	指	zi2
 1	110000	1F446	上邊	soeng6 bin1
 1	110000	1F446	上邊	soeng6 bin6
 1	110000	1F446	上面	soeng6 min6
 1	110000	1F446	上高	soeng6 gou1
+1	110000	1F446	上方	soeng6 fong1
 1	110000	1F446	上	soeng6
 1	110000	1F446	上指	soeng6 zi2
 1	110000	1F446	指上	zi2 soeng6
@@ -780,6 +814,7 @@
 1	110000	1F447	下面	haa6 min6
 1	110000	1F447	下低	haa6 dai1
 1	110000	1F447	下底	haa6 dai2
+1	110000	1F447	下方	haa6 fong1
 1	110000	1F447	下	haa6
 1	110000	1F447	下指	haa6 zi2
 1	110000	1F447	指下	zi2 haa6
@@ -1032,6 +1067,8 @@
 1	110000	1F471.200D.2640.FE0F	白女	baak6 neoi5
 1	110000	1F471.200D.2640.FE0F	白人女	baak6 jan4 neoi5
 1	110000	1F471.200D.2640.FE0F	白妹	baak6 mui1
+1	110000	1F471.200D.2640.FE0F	靚女	leng3 neoi2
+1	110000	1F471.200D.2640.FE0F	靚女	leng3 neoi5
 1	110000	1F471	中性金髮人	zung1 sing3 gam1 faat3 jan4
 1	110000	1F471.200D.2642.FE0F	金髮男	gam1 faat3 naam4
 1	110000	1F469.200D.1F9B3	白髮女	baak6 faat3 neoi5
@@ -1091,6 +1128,7 @@
 1	110000	1F9D5	包頭巾	baau1 tau4 gan1
 1	110000	1F9D5	戴頭巾	daai3 tau4 gan1
 1	110000	1F9D5	頭巾	tau4 gan1
+1	110000	1F9D5	頭巾女	tau4 gan1 neoi5
 1	110000	1F46E.200D.2640.FE0F	女警察	neoi5 ging2 caat3
 1	110000	1F46E.200D.2640.FE0F	女差人	neoi5 caai1 jan4
 1	110000	1F46E.200D.2640.FE0F	差婆	caai1 po2
@@ -1315,6 +1353,8 @@
 1	110000	1F470.200D.2640.FE0F	新婦	san1 fu5
 1	110000	1F470.200D.2640.FE0F	新婦	san1 pou5
 1	110000	1F470.200D.2640.FE0F	新婦	sam1 pou5
+1	110000	1F470.200D.2640.FE0F	新娘子	san1 noeng4 zi2
+1	110000	1F470.200D.2640.FE0F	結婚	git3 fan1
 1	110000	1F470	中性婚紗人	zung1 sing3 fan1 saa1 jan4
 1	110000	1F470.200D.2642.FE0F	婚紗男	fan1 saa1 naam4
 1	110000	1F935.200D.2640.FE0F	燕尾服女	jin3 mei5 fuk6 neoi5
@@ -1346,12 +1386,16 @@
 1	110000	1F9B9.200D.2640.FE0F	反派	faan2 paai1
 1	110000	1F9B9.200D.2640.FE0F	壞人	waai6 jan4
 1	110000	1F9B9.200D.2640.FE0F	惡人	ok3 jan4
+1	110000	1F9B9.200D.2640.FE0F	壞蛋	waai6 daan2
+1	110000	1F9B9.200D.2640.FE0F	歹徒	daai2 tou4
 1	110000	1F9B9	中性反派	zung1 sing3 faan2 paai3
 1	110000	1F9B9.200D.2642.FE0F	男反派	naam4 faan2 paai1
 1	110000	1F9B9.200D.2642.FE0F	反派	faan2 paai3
 1	110000	1F9B9.200D.2642.FE0F	反派	faan2 paai1
 1	110000	1F9B9.200D.2642.FE0F	壞人	waai6 jan4
 1	110000	1F9B9.200D.2642.FE0F	惡人	ok3 jan4
+1	110000	1F9B9.200D.2642.FE0F	壞蛋	waai6 daan2
+1	110000	1F9B9.200D.2642.FE0F	歹徒	daai2 tou4
 1	110000	1F936	聖誕夫人	sing3 daan3 fu1 jan4
 1	110000	1F936	聖誕老人	sing3 daan3 lou5 jan4
 1	110000	1F9D1.200D.1F384	中性聖誕老人	zung1 sing3 sing3 daan3 lou5 jan4
@@ -1448,18 +1492,22 @@
 1	110000	1F481.200D.2642.FE0F	有請	jau5 cing2
 1	110000	1F481.200D.2642.FE0F	有請	jau5 ceng2
 1	110000	1F645.200D.2640.FE0F	否定	fau2 ding6
+1	110000	1F645.200D.2640.FE0F	否	fau2
 1	110000	1F645.200D.2640.FE0F	反對	faan2 deoi3
 1	110000	1F645.200D.2640.FE0F	不可	bat1 ho2
-1	110000	1F645.200D.2640.FE0F	不許	bat1 heoi2
 1	110000	1F645.200D.2640.FE0F	唔可以	m4 ho2 ji5
 1	110000	1F645.200D.2640.FE0F	唔得	m4 dak1
+1	110000	1F645.200D.2640.FE0F	不許	bat1 heoi2
+1	110000	1F645.200D.2640.FE0F	不准	bat1 zeon2
 1	110000	1F645	中性人否定	zung1 sing3 jan4 fau2 ding6
 1	110000	1F645.200D.2642.FE0F	否定	fau2 ding6
+1	110000	1F645.200D.2642.FE0F	否	fau2
 1	110000	1F645.200D.2642.FE0F	反對	faan2 deoi3
 1	110000	1F645.200D.2642.FE0F	不可	bat1 ho2
-1	110000	1F645.200D.2642.FE0F	不許	bat1 heoi2
 1	110000	1F645.200D.2642.FE0F	唔可以	m4 ho2 ji5
 1	110000	1F645.200D.2642.FE0F	唔得	m4 dak1
+1	110000	1F645.200D.2642.FE0F	不許	bat1 heoi2
+1	110000	1F645.200D.2642.FE0F	不准	bat1 zeon2
 1	110000	1F646.200D.2640.FE0F	同意	tung4 ji3
 1	110000	1F646.200D.2640.FE0F	准許	zeon2 heoi2
 1	110000	1F646.200D.2640.FE0F	許可	heoi2 ho2
@@ -1728,7 +1776,11 @@
 1	110000	1F9BA	救生服	gau3 sang1 fuk6
 1	110000	1F9BA	救生衣	gau3 sang1 ji1
 1	110000	1F45A	女裝	neoi5 zong1
+1	110000	1F45A	衫	saam1
+1	110000	1F45A	衣服	ji1 fuk6
 1	110000	1F455	男裝	naam4 zong1
+1	110000	1F455	衫	saam1
+1	110000	1F455	衣服	ji1 fuk6
 1	110000	1F456	牛仔褲	ngau4 zai2 fu3
 1	110000	1F456	褲	fu3
 1	110000	1F456	長褲	coeng4 fu3
@@ -1742,6 +1794,8 @@
 1	110000	1F457	禮服	lai5 fuk6
 1	110000	1F457	裙	kwan4
 1	110000	1F457	連衣裙	lin4 ji1 kwan4
+1	110000	1F457	衣服	ji1 fuk6
+1	110000	1F457	衣裳	ji1 soeng4
 1	110000	1F459	比基尼	bei2 gei1 nei4
 1	110000	1F459	比堅尼	bei2 gin1 nei4
 1	110000	1F459	三點裝	saam1 dim2 zong1
@@ -1820,6 +1874,7 @@
 1	110000	1F302	擔遮	daam1 ze1
 1	110000	1F302	傘	saan3
 1	110000	1F302	雨傘	jyu5 saan3
+1	110000	1F302	雨具	jyu5 geoi6
 2	110000	1F436	狗頭	gau2 tau4
 2	110000	1F436	狗	gau2
 2	110000	1F436	犬	hyun2
@@ -1975,6 +2030,11 @@
 2	110000	1F985	大雕	daai6 diu1
 2	110000	1F985	猛禽	maang5 kam4
 2	110000	1F989	貓頭鷹	maau1 tau4 jing1
+2	110000	1F989	鴞	hiu1
+2	110000	1F989	梟	hiu1
+2	110000	1F989	人面鴞	jan4 min6 hiu1
+2	110000	1F989	鴟鴞	ci1 hiu1
+2	110000	1F989	惡鳥	ok3 niu5
 2	110000	1F987	蝙蝠	bin1 fuk1
 2	110000	1F987	蝙蝠	pin1 fuk1
 2	110000	1F987	蝙	bin1
@@ -2014,6 +2074,9 @@
 2	110000	1F98B	蝴蝶	wu4 dip2
 2	110000	1F98B	蝶	dip6
 2	110000	1F98B	蝶	dip2
+2	110000	1F98B	蛺蜨	gaap3 dip6
+2	110000	1F98B	蛺	gaap3
+2	110000	1F98B	蜨	dip6
 2	110000	1F40C	蝸牛	wo1 ngau4
 2	110000	1F40C	蝸	wo1
 2	110000	1F41E	瓢蟲	piu4 cung4
@@ -2073,7 +2136,11 @@
 2	110000	1F40D	蟒	mong5
 2	110000	1F40D	虺	wai2
 2	110000	1F98E	變色龍	bin3 sik1 lung4
+2	110000	1F98E	蜥蜴	sik1 jik6
+2	110000	1F98E	爬行動物	paa4 hang4 dung6 mat6
 2	110000	1F98E	四腳蛇	sei3 goek3 se4
+2	110000	1F98E	石龍子	sek6 lung4 zi2
+2	110000	1F98E	豬仔蛇	zyu1 zai2 se4
 2	110000	1F996	霸王龍	baa3 wong4 lung4
 2	110000	1F996	恐龍	hung2 lung4
 2	110000	1F995	恐龍	hung2 lung4
@@ -2398,6 +2465,7 @@
 2	110000	1FAA8	石頭	sek6 tau4
 2	110000	1FAA8	石塊	sek6 faai3
 2	110000	1FAA8	岩石	ngaam4 sek6
+2	110000	1FAA8	塊石	faai3 sek6
 2	110000	1F33E	水稻	seoi2 dou6
 2	110000	1F33E	稻	dou6
 2	110000	1F33E	稻穀	dou6 guk1
@@ -2638,10 +2706,14 @@
 2	110000	2614.FE0F	遮	ze1
 2	110000	2614.FE0F	傘	saan3
 2	110000	2614.FE0F	雨傘	jyu5 saan3
+2	110000	2614.FE0F	雨具	jyu5 geoi6
+2	110000	2614.FE0F	落雨	lok6 jyu5
+2	110000	2614.FE0F	落水	lok6 seoi2
 2	110000	2602.FE0F	遮	ze1
 2	110000	2602.FE0F	擔遮	daam1 ze1
 2	110000	2602.FE0F	傘	saan3
 2	110000	2602.FE0F	雨傘	jyu5 saan3
+2	110000	2602.FE0F	雨具	jyu5 geoi6
 2	110000	1F30A	波浪	bo1 long6
 2	110000	1F30A	海浪	hoi2 long6
 2	110000	1F30A	浪	long6
@@ -2651,9 +2723,12 @@
 3	110000	1F34F	青蘋果	ceng1 ping4 gwo2
 3	110000	1F34F	青蘋果	cing1 ping4 gwo2
 3	110000	1F34F	蘋果	ping4 gwo2
+3	110000	1F34F	蘋	ping4
 3	110000	1F34E	紅蘋果	hung4 ping4 gwo2
 3	110000	1F34E	蘋果	ping4 gwo2
+3	110000	1F34E	蘋	ping4
 3	110000	1F350	梨	lei4
+3	110000	1F350	雪梨	syut3 lei4
 3	110000	1F34A	柑橘	gam1 gwat1
 3	110000	1F34A	橘	gwat1
 3	110000	1F34A	柑	gam1
@@ -2750,6 +2825,7 @@
 3	110000	1F33D	粟米	suk1 mai5
 3	110000	1F33D	包粟	baau1 suk1
 3	110000	1F33D	玉米	juk6 mai5
+3	110000	1F33D	六穀	luk6 guk1
 3	110000	1F955	胡蘿蔔	wu4 lo4 baak6
 3	110000	1F955	紅蘿蔔	hung4 lo4 baak6
 3	110000	1F955	紅菜頭	hung4 coi3 tau4
@@ -2771,6 +2847,10 @@
 3	110000	1F360	番薯	faan1 syu2
 3	110000	1F360	紅薯	hung4 syu4
 3	110000	1F360	甜薯	tim4 syu4
+3	110000	1F360	甘薯	gam1 syu4
+3	110000	1F360	紅苕	hung4 siu4
+3	110000	1F360	紫薯	zi2 syu4
+3	110000	1F360	薯	syu4
 3	110000	1F360	地瓜	dei6 gwaa1
 3	150000	1FADA	薑	goeng1
 3	150000	1FADA	生薑	saang1 goeng1
@@ -2781,13 +2861,14 @@
 3	110000	1F950	牛角麪包	ngau4 gok3 min6 baau1
 3	110000	1F96F	麪包圈	min6 baau1 hyun1
 3	110000	1F35E	麪包	min6 baau1
-3	110000	1F956	法式長棍	faat3 sik1 coeng4 gwan3
+3	110000	1F35E	西式麪包	sai1 sik1 min6 baau1
 3	110000	1F956	法式麪包	faat3 sik1 min6 baau1
+3	110000	1F956	法式長棍	faat3 sik1 coeng4 gwan3
+3	110000	1F956	法棍	faat3 gwan3
 3	110000	1F968	蝴蝶餅	wu4 dip6 beng2
 3	110000	1F968	蝴蝶脆餅	wu4 dip6 ceoi3 beng2
 3	110000	1F968	椒鹽捲餅	ziu1 jim4 gyun2 beng2
 3	110000	1F9C0	芝士	zi1 si2
-3	110000	1F9C0	芝士	zi1 si6
 3	110000	1F9C0	奶酪	naai5 lok3
 3	110000	1F9C0	乳酪	jyu5 lok3
 3	110000	1F95A	雞蛋	gai1 daan6
@@ -2804,6 +2885,7 @@
 3	110000	1F9C8	牛油	ngau4 jau4
 3	110000	1F9C8	黃油	wong4 jau4
 3	110000	1F9C8	奶油	naai5 jau4
+3	110000	1F9C8	忌廉	gei6 lim1
 3	110000	1F95E	煎餅	zin1 beng2
 3	110000	1F95E	薄餅	bok6 beng2
 3	110000	1F95E	蛋餅	daan6 beng2
@@ -2835,6 +2917,7 @@
 3	110000	1F356	肉骨	juk6 gwat1
 3	110000	1F9B4	骨	gwat1
 3	110000	1F9B4	骨頭	gwat1 tau4
+3	110000	1F9B4	嚿骨	gau6 gwat1
 3	110000	1F32D	熱狗	jit6 gau2
 3	110000	1F354	漢堡包	hon3 bou2 baau1
 3	110000	1F354	漢堡	hon3 bou2
@@ -2937,6 +3020,7 @@
 3	110000	1F364	蝦公	haa1 gung1
 3	110000	1F359	飯糰	faan6 tyun4
 3	110000	1F359	糰	tyun4
+3	110000	1F359	米糰	mai5 tyun4
 3	110000	1F35A	米飯	mai5 faan6
 3	110000	1F35A	飯	faan6
 3	110000	1F35A	白飯	baak6 faan6
@@ -2947,6 +3031,7 @@
 3	110000	1F35A	喫飯	jaak3 faan6
 3	110000	1F35A	飯碗	faan6 wun2
 3	110000	1F35A	靚仔	leng3 zai2
+3	110000	1F35A	米	mai5
 3	110000	1F358	米餅	mai5 beng2
 3	110000	1F358	米果	mai5 gwo2
 3	110000	1F365	魚餅	jyu4 beng2
@@ -2983,6 +3068,7 @@
 3	110000	1F382	蛋糕	daan6 gou1
 3	110000	1F382	生日蛋糕	saang1 jat6 daan6 gou1
 3	110000	1F382	糕點	gou1 dim2
+3	110000	1F382	生日快樂	saang1 jat6 faai3 lok6
 3	110000	1F36E	奶黃	naai5 wong4
 3	110000	1F36E	甜品	tim4 ban2
 3	110000	1F36E	蛋奶凍	daan6 naai5 dung3
@@ -3002,6 +3088,8 @@
 3	110000	1F369	甜圈	tim4 hyun1
 3	110000	1F369	朱古力圈	zyu1 gu2 lik6 hyun1
 3	110000	1F369	朱咕叻圈	zyu1 gu1 lik1 hyun1
+3	110000	1F369	油炸圈	jau4 zaa3 hyun1
+3	110000	1F369	冬甩	dung1 lat1
 3	110000	1F36A	餅乾	beng2 gon1
 3	110000	1F36A	曲奇	kuk1 kei4
 3	110000	1F330	栗	leot6
@@ -3010,6 +3098,7 @@
 3	110000	1F95C	花生	faa1 sang1
 3	110000	1F95C	番豆	faan1 dau6
 3	110000	1F95C	地豆	dei6 dau6
+3	110000	1F95C	落花生	lok6 faa1 sang1
 3	140000	1FAD8	豆	dau6
 3	140000	1FAD8	豆	dau2
 3	140000	1FAD8	紅豆	hung4 dau6
@@ -3054,6 +3143,9 @@
 3	110000	1F964	吸管	kap1 gun2
 3	110000	1F964	飲筒	jam2 tung2
 3	110000	1F964	飲管	jam2 gun2
+3	110000	1F964	飲料	jam2 liu6
+3	110000	1F964	飲料	jam2 liu2
+3	110000	1F964	飲品	jam2 ban2
 3	110000	1F9CB	奶茶	naai5 caa4
 3	110000	1F9CB	珍珠奶茶	zan1 zyu1 naai5 caa4
 3	110000	1F376	日本清酒	jat6 bun2 cing1 zau2
@@ -3098,11 +3190,15 @@
 3	110000	1F37E	開香檳	hoi1 hoeng1 ban1
 3	110000	1F9CA	冰	bing1
 3	110000	1F9CA	冰塊	bing1 faai3
+3	110000	1F9CA	塊冰	faai3 bing1
+3	110000	1F9CA	嚿冰	gau6 bing1
 3	110000	1F944	調羹	tiu4 gang1
 3	110000	1F944	調羹	tiu1 gang1
 3	110000	1F944	匙羹	ci4 gang1
 3	110000	1F944	湯匙	tong1 ci4
 3	110000	1F944	勺仔	soek3 zai2
+3	110000	1F944	羹仔	gang1 zai2
+3	110000	1F944	勺	soek3
 3	110000	1F374	刀叉	dou1 caa1
 3	110000	1F37D	餐具	caan1 geoi6
 3	110000	1F37D	用餐	jung6 caan1
@@ -3398,9 +3494,8 @@
 4	110000	1F3AC	導演	dou6 jin2
 4	110000	1F3AC	執導	zap1 dou6
 4	110000	1F3AC	開波	hoi1 bo1
-4	110000	1F3A4	咪	mai1
-4	110000	1F3A4	咪高峯	mai1 gou1 fung1
-4	110000	1F3A4	咪高風	mai1 gou1 fung1
+4	110000	1F3A4	銤	mai1
+4	110000	1F3A4	銤高風	mai1 gou1 fung1
 4	110000	1F3A4	話筒	waa6 tung4
 4	110000	1F3A4	話筒	waa6 tung2
 4	110000	1F3A7	耳機	ji5 gei1
@@ -3458,6 +3553,7 @@
 4	110000	1F3AF	中	zung3
 4	110000	1F3AF	中肯	zung3 hang2
 4	110000	1F3AF	正正係	zing3 zing3 hai6
+4	110000	1F3AF	目標	muk6 biu1
 4	110000	1F3B3	保齡球	bou2 ling4 kau4
 4	110000	1F3AE	遊戲手柄	jau4 hei3 sau2 beng3
 4	110000	1F3B0	老虎機	lou5 fu2 gei1
@@ -3625,7 +3721,10 @@
 5	110000	26FD.FE0F	加油	gaa1 jau2
 5	110000	26FD.FE0F	加油	gaa1 jau4
 5	110000	1F6A7	施工	si1 gung1
+5	110000	1F6A7	施工中	si1 gung1 zung1
 5	110000	1F6A7	道路施工	dou6 lou6 si1 gung1
+5	110000	1F6A7	道路維護	dou6 lou6 wai4 wu6
+5	110000	1F6A7	道路維修	dou6 lou6 wai4 sau1
 5	110000	1F6A7	修路	sau1 lou6
 5	110000	1F6A7	路障	lou6 zoeng3
 5	110000	1F6A7	拒馬	keoi5 maa5
@@ -3717,8 +3816,15 @@
 5	110000	1F3D8	住宅區	zyu6 zaak2 keoi1
 5	110000	1F3D8	住宅區	zyu6 zaak6 keoi1
 5	110000	1F3DA	廢棄房屋	fai3 hei3 fong4 uk1
+5	110000	1F3D7	塔吊	taap3 diu3
 5	110000	1F3D7	建築施工	gin3 zuk1 si1 gung1
+5	110000	1F3D7	建築工地	gin3 zuk1 gung1 dei6
+5	110000	1F3D7	工地	gung1 dei6
 5	110000	1F3D7	建設	gin3 cit3
+5	110000	1F3D7	建設中	gin3 cit3 zung1
+5	110000	1F3D7	在建	zoi6 gin3
+5	110000	1F3D7	施工	si1 gung1
+5	110000	1F3D7	施工中	si1 gung1 zung1
 5	110000	1F3ED	工廠	gung1 cong2
 5	110000	1F3ED	工業區	gung1 jip6 keoi1
 5	110000	1F3E2	辦公樓	baan6 gung1 lau4
@@ -3860,29 +3966,19 @@
 6	110000	1F5DC	夾鉗	gaap3 kim4
 6	110000	1F5DC	夾鉗	gaap6 kim2
 6	110000	1F4BD	迷你光碟	mai4 nei5 gwong1 dip2
-6	110000	1F4BD	迷你光碟	mai4 nei5 gwong1 dip6
 6	110000	1F4BD	迷你光盤	mai4 nei5 gwong1 pun2
-6	110000	1F4BD	迷你光盤	mai4 nei5 gwong1 pun4
+6	110000	1F4BD	袖珍光碟	zau6 zan1 gwong1 dip2
+6	110000	1F4BD	袖珍光盤	zau6 zan1 gwong1 pun2
 6	110000	1F4BD	光碟	gwong1 dip2
-6	110000	1F4BD	光碟	gwong1 dip6
 6	110000	1F4BD	光盤	gwong1 pun2
-6	110000	1F4BD	光盤	gwong1 pun4
-6	110000	1F4BD	碟	dip2
-6	110000	1F4BD	碟	dip6
 6	110000	1F4BE	軟盤	jyun5 pun2
 6	110000	1F4BE	軟碟	jyun5 dip2
+6	110000	1F4BE	儲存	cyu5 cyun4
+6	110000	1F4BE	保存	bou2 cyun4
 6	110000	1F4BF	光碟	gwong1 dip2
-6	110000	1F4BF	光碟	gwong1 dip6
 6	110000	1F4BF	光盤	gwong1 pun2
-6	110000	1F4BF	光盤	gwong1 pun4
-6	110000	1F4BF	碟	dip2
-6	110000	1F4BF	碟	dip6
 6	110000	1F4C0	光碟	gwong1 dip2
-6	110000	1F4C0	光碟	gwong1 dip6
 6	110000	1F4C0	光盤	gwong1 pun2
-6	110000	1F4C0	光盤	gwong1 pun4
-6	110000	1F4C0	碟	dip2
-6	110000	1F4C0	碟	dip6
 6	110000	1F4FC	錄像帶	luk6 zoeng6 daai2
 6	110000	1F4FC	錄影帶	luk6 jing2 daai2
 6	110000	1F4F7	相機	soeng3 gei1
@@ -3928,11 +4024,10 @@
 6	110000	1F4FA	電視	din6 si6
 6	110000	1F4FA	電視機	din6 si6 gei1
 6	110000	1F4FB	收音機	sau1 jam1 gei1
-6	110000	1F399	錄音咪	luk6 jam1 mai1
+6	110000	1F399	錄音銤	luk6 jam1 mai1
 6	110000	1F399	錄音	luk6 jam1
-6	110000	1F399	咪	mai1
-6	110000	1F399	咪高峯	mai1 gou1 fung1
-6	110000	1F399	咪高風	mai1 gou1 fung1
+6	110000	1F399	銤	mai1
+6	110000	1F399	銤高風	mai1 gou1 fung1
 6	110000	1F39A	電平滑塊	din6 ping4 waat6 faai3
 6	110000	1F39B	控制旋鈕	hung3 zai3 syun4 nau2
 6	110000	1F9ED	指南針	zi2 naam4 zam1
@@ -3963,6 +4058,9 @@
 6	110000	1F50B	電量	din6 loeng6
 6	140000	1FAAB	低電量	dai1 din6 loeng6
 6	140000	1FAAB	冇電	mou5 din6
+6	140000	1FAAB	冇晒電	mou5 saai3 din6
+6	140000	1FAAB	電量耗盡	din6 loeng6 hou3 zeon6
+6	140000	1FAAB	耗盡	hou3 zeon6
 6	110000	1F50C	插頭	caap3 tau4
 6	110000	1F50C	插頭	caap3 tau2
 6	110000	1F50C	電插頭	din6 caap3 tau2
@@ -3999,6 +4097,7 @@
 6	110000	1F4B4	日元	jat6 jyun4
 6	110000	1F4B6	歐元	au1 jyun4
 6	110000	1F4B7	英鎊	jing1 bong6
+6	110000	1F4B7	鎊	bong6
 6	110000	1FA99	硬幣	ngaang6 bai6
 6	110000	1FA99	錢幣	cin4 bai6
 6	110000	1FA99	幣	bai6
@@ -4011,8 +4110,10 @@
 6	110000	1F4B0	錢銀	cin4 ngan4
 6	110000	1F4B0	錢銀	cin2 ngan2
 6	110000	1F4B0	錢財	cin4 coi4
+6	110000	1F4B0	財富	coi4 fu3
 6	110000	1F4B3	信用卡	seon3 jung6 kaa1
 6	110000	1F4B3	銀行卡	ngan4 hong4 kaa1
+6	110000	1F4B3	卡	kaa1
 6	140000	1FAAA	身份證	san1 fan2 zing3
 6	110000	1F48E	鑽石	zyun3 sek6
 6	110000	1F48E	鑽	zyun3
@@ -4133,8 +4234,8 @@
 6	110000	2697.FE0F	蒸餾器	zing1 lau6 hei3
 6	110000	1F52D	望遠鏡	mong6 jyun5 geng3
 6	110000	1F52C	顯微鏡	hin2 mei4 geng3
-6	110000	1F573.FE0F	𥥅	lung1
 6	110000	1F573.FE0F	窿	lung1
+6	110000	1F573.FE0F	𥥅	lung1
 6	110000	1F573.FE0F	井	zeng2
 6	110000	1F573.FE0F	井	zing2
 6	110000	1F573.FE0F	洞	dung6
@@ -4170,6 +4271,8 @@
 6	110000	1F9F9	掃把	sou3 baa2
 6	110000	1F9F9	掃帚	sou3 zau2
 6	110000	1F9F9	掃	sou3
+6	110000	1F9F9	帚	zau2
+6	110000	1F9F9	掃地	sou3 dei6
 6	110000	1FAA0	馬桶吸	maa5 tung2 kap1
 6	110000	1F9FA	籃	laam4
 6	110000	1F9FA	竹籃	zuk1 laam4
@@ -4180,9 +4283,11 @@
 6	110000	1F9FB	卷紙	gyun2 zi2
 6	110000	1F9FB	紙卷	zi2 gyun2
 6	110000	1F6BD	馬桶	maa5 tung2
+6	110000	1F6BD	如廁	jyu4 ci3
 6	110000	1F6BD	廁所	ci3 so2
 6	110000	1F6BD	衛生間	wai6 sang1 gaan1
 6	110000	1F6BD	洗手間	sai2 sau2 gaan1
+6	110000	1F6BD	廁	ci3
 6	110000	1F6B0	水龍頭	seoi2 lung4 tau4
 6	110000	1F6B0	水喉	seoi2 hau4
 6	110000	1F6B0	飲用水	jam2 jung6 seoi2
@@ -4226,6 +4331,7 @@
 6	110000	1F6AA	門口	mun4 hau2
 6	110000	1FA91	櫈	dang3
 6	110000	1FA91	櫈仔	dang3 zai2
+6	110000	1FA91	椅	ji2
 6	110000	1F6CB	沙發	saa1 faat3
 6	110000	1F6CB	梳化	so1 faa2
 6	110000	1F6CF	牀	cong4
@@ -4789,10 +4895,14 @@
 7	110000	2753	問號	man6 hou2
 7	110000	2753	疑問	ji4 man6
 7	110000	2753	問	man6
+7	110000	2753	爲何	wai6 ho4
+7	110000	2753	疑惑	ji4 waak6
 7	110000	2754	問號	man6 hou6
 7	110000	2754	問號	man6 hou2
 7	110000	2754	疑問	ji4 man6
 7	110000	2754	問	man6
+7	110000	2754	爲何	wai6 ho4
+7	110000	2754	疑惑	ji4 waak6
 7	110000	203C.FE0F	雙嘆號	soeng1 taan3 hou6
 7	110000	203C.FE0F	雙嘆號	soeng1 taan3 hou2
 7	110000	203C.FE0F	雙感嘆號	soeng1 gam2 taan3 hou6
@@ -4861,6 +4971,8 @@
 7	110000	1F310	世界	sai3 gaai3
 7	110000	1F310	國際	gwok3 zai3
 7	110000	1F310	語言	jyu5 jin4
+7	110000	1F310	全球	cyun4 kau4
+7	110000	1F310	寰球	waan4 kau4
 7	110000	1F4A0	菱形點心鑽	ling4 jing4 dim2 sam1 zyun3
 7	110000	1F4A0	可愛	ho2 oi3
 7	110000	1F4A0	得意	dak1 ji3
@@ -4889,8 +5001,10 @@
 7	110000	1F3E7	取款機	ceoi2 fun2 gei1
 7	110000	1F3E7	提款機	tai4 fun2 gei1
 7	110000	1F6BE	廁所	ci3 so2
+7	110000	1F6BE	廁	ci3
 7	110000	1F6BE	衛生間	wai6 sang1 gaan1
 7	110000	1F6BE	洗手間	sai2 sau2 gaan1
+7	110000	1F6BE	如廁	jyu4 ci3
 7	110000	267F.FE0F	輪椅	leon4 ji2
 7	110000	1F17F.FE0F	停車場	ting4 ce1 coeng4
 7	110000	1F17F.FE0F	停車	ting4 ce1
@@ -5059,6 +5173,7 @@
 7	110000	1F503	順時針箭頭	seon6 si4 zam1 zin3 tau4
 7	110000	1F3B5	音樂	jam1 ngok6
 7	110000	1F3B5	音符	jam1 fu4
+7	110000	1F3B5	樂	ngok6
 7	110000	1F3B6	音符	jam1 fu4
 7	110000	2795	加號	gaa1 hou6
 7	110000	2795	加	gaa1
@@ -5110,6 +5225,7 @@
 7	110000	1F534	赤色	cek3 sik1
 7	110000	1F7E0	橙色	caang4 sik1
 7	110000	1F7E0	橙色	caang2 sik1
+7	110000	1F7E0	橘色	gwat1 sik1
 7	110000	1F7E1	黃色	wong4 sik1
 7	110000	1F7E2	綠色	luk6 sik1
 7	110000	1F535	藍色	laam4 sik1
@@ -5152,6 +5268,8 @@
 7	110000	1F7E7	橙色	caang2 sik1
 7	110000	1F7E7	橙	caang4
 7	110000	1F7E7	橙	caang2
+7	110000	1F7E7	橘色	gwat1 sik1
+7	110000	1F7E7	橘	gwat1
 7	110000	1F7E8	黃色	wong4 sik1
 7	110000	1F7E8	黃	wong4
 7	110000	1F7E9	綠色	luk6 sik1
@@ -5373,7 +5491,7 @@
 8	110000	1F1EA.1F1EC	埃及	oi1 kap6
 8	110000	1F1EA.1F1EC	埃	oi1
 8	110000	1F1F8.1F1FB	薩爾瓦多	saat3 ji5 ngaa5 do1
-8	110000	1F1EC.1F1F6	赤道幾內亞	cek3 dou6 gei1 noi6 aa3
+8	110000	1F1EC.1F1F6	赤道幾內亞	cek3 dou6 gei2 noi6 aa3
 8	110000	1F1EA.1F1F7	厄立特里亞	ak1 laap6 dak6 lei5 aa3
 8	110000	1F1EA.1F1EA	愛沙尼亞	oi3 saa1 nei4 aa3
 8	110000	1F1F8.1F1FF	斯威士蘭	si1 wai1 si6 laan4
@@ -5406,8 +5524,8 @@
 8	110000	1F1EC.1F1FA	關島	gwaan1 dou2
 8	110000	1F1EC.1F1F9	危地馬拉	ngai4 dei6 maa5 laai1
 8	110000	1F1EC.1F1EC	格恩西島	gaak3 jan1 sai1 dou2
-8	110000	1F1EC.1F1F3	幾內亞	gei1 noi6 aa3
-8	110000	1F1EC.1F1FC	幾內亞比紹	gei1 noi6 aa3 bei2 siu6
+8	110000	1F1EC.1F1F3	幾內亞	gei2 noi6 aa3
+8	110000	1F1EC.1F1FC	幾內亞比紹	gei2 noi6 aa3 bei2 siu6
 8	110000	1F1EC.1F1FE	圭亞那	gwai1 aa3 naa5
 8	110000	1F1ED.1F1F9	海地	hoi2 dei6
 8	110000	1F1ED.1F1F3	洪都拉斯	hung4 dou1 laai1 si1
@@ -5519,7 +5637,7 @@
 8	110000	1F1F5.1F1FC	帕勞	paak3 lou4
 8	110000	1F1F5.1F1F8	巴勒斯坦	baa1 lak6 si1 taan2
 8	110000	1F1F5.1F1E6	巴拿馬	baa1 naa4 maa5
-8	110000	1F1F5.1F1EC	巴布亞新幾內亞	baa1 bou3 aa3 san1 gei1 noi6 aa3
+8	110000	1F1F5.1F1EC	巴布亞新幾內亞	baa1 bou3 aa3 san1 gei2 noi6 aa3
 8	110000	1F1F5.1F1FE	巴拉圭	baa1 laai1 gwai1
 8	110000	1F1F5.1F1EA	秘魯	bei3 lou5
 8	110000	1F1F5.1F1ED	菲律賓	fei1 leot6 ban1
@@ -5689,6 +5807,8 @@
 9	110000	1F470.200D.2640.FE0F	新婦	san1 fu5
 9	110000	1F470.200D.2640.FE0F	新婦	san1 pou5
 9	110000	1F470.200D.2640.FE0F	新婦	sam1 pou5
+9	110000	1F470.200D.2640.FE0F	新娘子	san1 noeng4 zi2
+9	110000	1F470.200D.2640.FE0F	結婚	git3 fan1
 9	110000	1F478	公主	gung1 zyu2
 9	110000	1F478	王妃	wong4 fei1
 9	110000	1F478	王女	wong4 neoi5
@@ -5840,12 +5960,17 @@
 10	110000	23CF	推出	teoi1 ceot1
 10	110000	21E5	製表	zai3 biu2
 10	110000	21E5	製表符	zai3 biu2 fu4
+10	110000	21E5	製表鍵	zai3 biu2 gin6
 10	110000	23CE	換行	wun6 hong4
 10	110000	23CE	換行符	wun6 hong4 fu4
 10	110000	23CE	回車	wui4 ce1
+10	110000	23CE	換行鍵	wun6 hong4 gin6
+10	110000	23CE	回車鍵	wui4 ce1 gin6
 10	110000	21B5	換行	wun6 hong4
 10	110000	21B5	換行符	wun6 hong4 fu4
 10	110000	21B5	回車	wui4 ce1
+10	110000	21B5	換行鍵	wun6 hong4 gin6
+10	110000	21B5	回車鍵	wui4 ce1 gin6
 10	110000	2305	進入	zeon3 jap6
 10	110000	232B	退格	teoi3 gaak3
 10	110000	232B	向後刪除	hoeng3 hau6 saan1 ceoi4
@@ -5854,12 +5979,14 @@
 10	110000	232B	向左刪	hoeng3 zo2 saan1
 10	110000	232B	刪除	saan1 ceoi4
 10	110000	232B	刪	saan1
+10	110000	232B	刪除鍵	saan1 ceoi4 gin6
 10	110000	2326	向前刪除	hoeng3 cin4 saan1 ceoi4
 10	110000	2326	向右刪除	hoeng3 jau6 saan1 ceoi4
 10	110000	2326	向前刪	hoeng3 cin4 saan1
 10	110000	2326	向右刪	hoeng3 jau6 saan1
 10	110000	2326	刪除	saan1 ceoi4
 10	110000	2326	刪	saan1
+10	110000	2326	刪除鍵	saan1 ceoi4 gin6
 10	110000	2327	清空	cing1 hung1
 10	110000	2327	清除	cing1 ceoi4
 10	110000	1F000	東	dung1
@@ -5951,6 +6078,10 @@
 10	110000	2640	女	neoi5
 10	110000	2640	女性	neoi5 sing3
 10	110000	2640	女士	neoi5 si6
+10	110000	261E	指	zi2
+10	110000	261E	指向	zi2 hoeng3
+10	110000	261E	指出	zi2 ceot1
+10	110000	261E	指示	zi2 si6
 10	110000	2190	向左箭頭	hoeng3 zo2 zin3 tau4
 10	110000	2190	左箭頭	zo2 zin3 tau4
 10	110000	2190	向左	hoeng3 zo2
@@ -6103,6 +6234,16 @@
 10	110000	222C	二重積分	ji6 cung4 zik1 fan1
 10	110000	222C	兩重積分	loeng2 cung4 zik1 fan1
 10	110000	222D	三重積分	saam1 cung4 zik1 fan1
+10	110000	2032	角分符號	gok3 fan1 fu4 hou6
+10	110000	2032	角分	gok3 fan1
+10	110000	2032	導數	dou6 sou3
+10	110000	2032	求導	kau4 dou6
+10	110000	2032	一階導數	jat1 gaai1 dou6 sou3
+10	110000	2032	一階導	jat1 gaai1 dou6
+10	110000	2033	角秒符號	gok3 miu5 fu4 hou6
+10	110000	2033	角秒	gok3 miu5
+10	110000	2033	二階導數	ji6 gaai1 dou6 sou3
+10	110000	2033	二階導	ji6 gaai1 dou6
 10	110000	221D	正比於	zing3 bei2 jyu1
 10	110000	2205	空集	hung1 zaap6
 10	110000	2295	異或	ji6 waak6
@@ -6118,6 +6259,7 @@
 10	110000	266A	音樂	jam1 ngok6
 10	110000	266B	音符	jam1 fu4
 10	110000	266B	音樂	jam1 ngok6
+10	110000	266B	樂	ngok6
 10	110000	266C	音符	jam1 fu4
 10	110000	1D11E	樂譜	ngok6 pou2
 10	110000	1D11E	曲譜	kuk1 pou2
@@ -6199,8 +6341,11 @@
 10	110000	2151	九分之一	gau2 fan6 zi1 jat1
 10	110000	2152	十分之一	sap6 fan6 zi1 jat1
 10	110000	25	百分號	baak3 fan6 hou6
+10	110000	25	百分	baak3 fan6
 10	110000	2030	千分號	cin1 fan6 hou6
+10	110000	2030	千分	cin1 fan6
 10	110000	2031	萬分號	maan6 fan6 hou6
+10	110000	2031	萬分	maan6 fan6
 10	110000	2116	序號	zeoi6 hou6
 10	110000	2116	數號	sou3 hou6
 10	110000	2116	數字符號	sou3 zi6 fu4 hou6
@@ -6342,11 +6487,14 @@
 10	110000	203B	參攷號	caam1 haau2 hou6
 10	110000	203B	參攷	caam1 haau2
 10	110000	203B	米印	mai5 jan3
+10	110000	25C9	魚眼	jyu4 ngaan5
+10	110000	25C9	圈點	hyun1 dim2
+10	110000	25C9	圓點	jyun4 dim2
 10	110000	B7	間隔號	gaan3 gaak3 hou6
 10	110000	B7	間隔	gaan3 gaak3
 10	110000	30FB	全寬中點	cyun4 fun1 zung1 dim2
-10	110000	30FB	中點	zung1 dim3
-10	110000	30FB	中點號	zung1 dim3 hou6
+10	110000	30FB	中點	zung1 dim2
+10	110000	30FB	中點號	zung1 dim2 hou6
 10	110000	2018	左單引號	zo2 daan1 jan5 hou6
 10	110000	2018	單引號	daan1 jan5 hou6
 10	110000	2018	彎引號	waan1 jan5 hou6
@@ -6375,12 +6523,11 @@
 10	110000	25A1	正方	zing3 fong1
 10	110000	25A1	方塊	fong1 faai3
 10	110000	25A1	矩形	geoi2 jing4
-10	110000	25A1	虛缺號	heoi1 kyut3 hou6
-10	110000	25A1	虛缺	heoi1 kyut3
 10	110000	25A1	缺字	kyut3 zi6
 10	110000	25A1	某字	mau5 zi6
 10	110000	25A1	某	mau5
 10	110000	25A1	空缺	hung1 kyut3
+10	110000	25A1	虛缺	heoi1 kyut3
 10	110000	25A2	圓角矩形	jyun4 gok3 geoi2 jing4
 10	110000	25AD	長方形	coeng4 fong1 jing4
 10	110000	25AD	長方	coeng4 fong1
@@ -6395,6 +6542,12 @@
 10	110000	25CB	圓形	jyun4 jing4
 10	110000	25CB	圓圈	jyun4 hyun1
 10	110000	25CB	圈	hyun1
+10	110000	25CB	白圈	baak6 hyun1
+10	110000	25CB	白圓	baak6 jyun4
+10	110000	25CB	白點	baak6 dim2
+10	110000	25CF	黑圈	hak1 hyun1
+10	110000	25CF	黑圓	hak1 jyun4
+10	110000	25CF	黑點	hak1 dim2
 10	110000	2661	心形	sam1 jing4
 10	110000	2661	愛心	oi3 sam1
 10	110000	2661	心	sam1
@@ -6463,6 +6616,11 @@
 10	110000	2FFF	上下顛倒	soeng6 haa6 din1 dou2
 10	110000	303E	相似結構	soeng1 ci5 git3 kau3
 10	110000	303E	相似結構	soeng1 ci5 git3 gau3
+10	110000	303F	缺字	kyut3 zi6
+10	110000	303F	某字	mau5 zi6
+10	110000	303F	某	mau5
+10	110000	303F	空缺	hung1 kyut3
+10	110000	303F	虛缺	heoi1 kyut3
 10	110000	31EF	相減結構	soeng1 gaam2 git3 kau3
 10	110000	31EF	相減結構	soeng1 gaam2 git3 gau3
 10	110000	2E5	調值五	diu6 zik6 ng5
@@ -6498,6 +6656,43 @@
 10	110000	1FA6B	車	geoi1
 10	110000	1FA6C	砲	paau3
 10	110000	1FA6D	卒	zeot1
+10	110000	3244	問	man6
+10	110000	3245	幼	jau3
+10	110000	3246	文	man4
+10	110000	3247	箏	zang1
+10	110000	328A	月	jyut6
+10	110000	328B	火	fo2
+10	110000	328C	水	seoi2
+10	110000	328D	木	muk6
+10	110000	328E	金	gam1
+10	110000	328F	土	tou2
+10	110000	3290	日	jat6
+10	110000	3291	株	zyu1
+10	110000	3292	有	jau5
+10	110000	3293	社	se5
+10	110000	3294	名	ming4
+10	110000	3295	特	dak6
+10	110000	3296	財	coi4
+10	110000	329A	男	naam4
+10	110000	329B	女	neoi5
+10	110000	329C	適	sik1
+10	110000	329D	優	jau1
+10	110000	329E	印	jan3
+10	110000	329F	注	zyu3
+10	110000	32A0	項	hong6
+10	110000	32A1	休	jau1
+10	110000	32A3	正	zing3
+10	110000	32A4	上	soeng6
+10	110000	32A5	中	zung1
+10	110000	32A6	下	haa6
+10	110000	32A7	左	zo2
+10	110000	32A8	右	jau6
+10	110000	32AA	宗	zung1
+10	110000	32AC	監	gaam1
+10	110000	32AD	企	kei5
+10	110000	32AE	資	zi1
+10	110000	32AF	協	hip3
+10	110000	32B0	夜	je6
 10	110000	32FF	令和	ling6 wo4
 10	110000	32FF	日本年號	jat6 bun2 nin4 hou6
 10	110000	337B	平成	ping4 sing4
@@ -6509,6 +6704,36 @@
 10	110000	337E	明治	ming4 zi6
 10	110000	337E	日本年號	jat6 bun2 nin4 hou6
 10	110000	337F	株式會社	zyu1 sik1 wui6 se5
+10	110000	1F210	手	sau2
+10	110000	1F211	字	zi6
+10	110000	1F214	二	ji6
+10	110000	1F215	多	do1
+10	110000	1F216	解	gaai2
+10	110000	1F217	天	tin1
+10	110000	1F218	交	gaau1
+10	110000	1F219	映	jing2
+10	110000	1F21B	料	liu6
+10	110000	1F21C	前	cin4
+10	110000	1F21D	後	hau6
+10	110000	1F21E	再	zoi3
+10	110000	1F21F	新	san1
+10	110000	1F220	初	co1
+10	110000	1F221	終	zung1
+10	110000	1F222	生	sang1
+10	110000	1F223	販	faan3
+10	110000	1F225	吹	ceoi1
+10	110000	1F226	演	jin5
+10	110000	1F227	投	tau4
+10	110000	1F228	捕	bou6
+10	110000	1F229	一	jat1
+10	110000	1F22A	三	saam1
+10	110000	1F22B	遊	jau4
+10	110000	1F22C	左	zo2
+10	110000	1F22D	中	zung1
+10	110000	1F22E	右	jau6
+10	110000	1F230	走	zau2
+10	110000	1F231	打	daa2
+10	110000	1F23B	配	pui3
 9	110000	48.2082	氫氣	hing1 hei3
 9	110000	4E.2082	氮氣	daam6 hei3
 9	110000	4F.2082	氧氣	joeng5 hei3
