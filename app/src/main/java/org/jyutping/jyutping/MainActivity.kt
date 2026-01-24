@@ -97,6 +97,7 @@ class MainActivity : ComponentActivity() {
 
         private fun titleOf(route: String?): Int = when (route) {
                 Screen.Home.route -> Screen.Home.title
+                Screen.TextToSpeech.route -> Screen.TextToSpeech.title
                 Screen.Introductions.route -> Screen.Introductions.title
                 Screen.Jyutping.route -> Screen.Jyutping.title
                 Screen.JyutpingInitials.route -> Screen.JyutpingInitials.title

@@ -222,6 +222,23 @@ fun HomeScreen(navController: NavHostController) {
                                 }
                         }
                         item {
+                                DisableSelection {
+                                        Column(
+                                                modifier = Modifier
+                                                        .clip(RoundedCornerShape(12.dp))
+                                                        .background(colorScheme.background)
+                                                        .fillMaxWidth()
+                                        ) {
+                                                NavigationLabel(
+                                                        icon = Icons.Outlined.Info,
+                                                        text = stringResource(id = R.string.home_label_tts)
+                                                ) {
+                                                        navController.navigate(route = Screen.TextToSpeech.route)
+                                                }
+                                        }
+                                }
+                        }
+                        item {
                                 TextCard(
                                         heading = stringResource(id = R.string.guide_abbreviated_input_heading),
                                         content = stringResource(id = R.string.guide_abbreviated_input_row1),

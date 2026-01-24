@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.Explore
+import androidx.compose.material.icons.automirrored.outlined.OpenInNew
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
@@ -54,7 +54,7 @@ fun WebLinkLabel(icon: ImageVector, text: String, uri: String) {
                         )
                         Spacer(modifier = Modifier.weight(1.0f))
                         Icon(
-                                imageVector = Icons.Outlined.Explore,
+                                imageVector = Icons.AutoMirrored.Outlined.OpenInNew,
                                 contentDescription = null,
                                 modifier = Modifier.size(18.dp).alpha(0.75f),
                                 tint = colorScheme.onBackground
