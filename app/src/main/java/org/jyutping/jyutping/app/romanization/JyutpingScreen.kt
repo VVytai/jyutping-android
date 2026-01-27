@@ -68,6 +68,8 @@ fun JyutpingScreen(navController: NavHostController) {
                                 WebLinkLabel(icon = Icons.Outlined.Search, text = "粵語審音配詞字庫", uri = "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can")
                                 EnhancedHorizontalDivider()
                                 WebLinkLabel(icon = Icons.Outlined.Search, text = "羊羊粵語", uri = "https://shyyp.net/hant")
+                                EnhancedHorizontalDivider()
+                                WebLinkLabel(icon = Icons.Outlined.Search, text = "粵語辭叢", uri = "https://www.jyutjyu.com")
                         }
                 }
                 item {

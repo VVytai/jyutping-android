@@ -132,6 +132,7 @@ photokit	PhotoKit
 promotion	ProMotion
 pushkit	PushKit
 qrcode	QR Code
+quicktime	QuickTime
 realmeui	realme UI
 replaykit	ReplayKit
 researchkit	ResearchKit

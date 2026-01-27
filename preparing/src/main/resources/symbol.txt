@@ -6175,37 +6175,48 @@
 10	110000	2637	坤卦	kwan1 gwaa3
 10	110000	2B	加號	gaa1 hou6
 10	110000	2B	加	gaa1
-10	110000	2212	減號	gaam2 hou6
-10	110000	2212	減	gaam2
+10	110000	3D	等號	dang2 hou6
+10	110000	3D	等於	dang2 jyu1
+10	110000	3D	等如	dang2 jyu4
+10	110000	3D	等	dang2
+10	110000	B0	度	dou6
+10	110000	B1	加減	gaa1 gaam2
+10	110000	B1	加減號	gaa1 gaam2 hou6
+10	110000	B1	正負	zing3 fu6
+10	110000	B1	正負號	zing3 fu6 hou6
 10	110000	D7	乘號	sing4 hou6
 10	110000	D7	乘	sing4
 10	110000	D7	乘以	sing4 ji5
 10	110000	F7	除號	ceoi4 hou6
 10	110000	F7	除以	ceoi4 ji5
-10	110000	3D	等號	dang2 hou6
-10	110000	3D	等於	dang2 jyu1
-10	110000	3D	等如	dang2 jyu4
-10	110000	3D	等	dang2
-10	110000	2248	約等號	joek3 dang2 hou6
-10	110000	2248	約等	joek3 dang2
-10	110000	2248	約等於	joek3 dang2 jyu1
-10	110000	2248	約等如	joek3 dang2 jyu4
-10	110000	2260	不等號	bat1 dang2 hou6
-10	110000	2260	不等	bat1 dang2
-10	110000	2260	唔等於	m4 dang2 jyu1
-10	110000	2260	唔等如	m4 dang2 jyu4
-10	110000	2260	不等於	bat1 dang2 jyu1
-10	110000	2260	不等如	bat1 dang2 jyu4
-10	110000	2264	小於等於	siu2 jyu1 dang2 jyu1
-10	110000	2264	小於或等於	siu2 jyu1 waak6 dang2 jyu1
-10	110000	2265	大於等於	daai6 jyu1 dang2 jyu1
-10	110000	2265	大於或等於	daai6 jyu1 waak6 dang2 jyu1
-10	110000	226A	遠小於	jyun5 siu2 jyu1
-10	110000	226B	遠大於	jyun5 daai6 jyu1
-10	110000	B1	加減	gaa1 gaam2
-10	110000	B1	加減號	gaa1 gaam2 hou6
-10	110000	B1	正負	zing3 fu6
-10	110000	B1	正負號	zing3 fu6 hou6
+10	110000	2032	角分符號	gok3 fan1 fu4 hou6
+10	110000	2032	角分	gok3 fan1
+10	110000	2032	導數	dou6 sou3
+10	110000	2032	求導	kau4 dou6
+10	110000	2032	一階導數	jat1 gaai1 dou6 sou3
+10	110000	2032	一階導	jat1 gaai1 dou6
+10	110000	2033	角秒符號	gok3 miu5 fu4 hou6
+10	110000	2033	角秒	gok3 miu5
+10	110000	2033	二階導數	ji6 gaai1 dou6 sou3
+10	110000	2033	二階導	ji6 gaai1 dou6
+10	110000	2102	複數	fuk1 sou3
+10	110000	2115	自然數	zi6 jin4 sou3
+10	110000	211A	有理數	jau5 lei5 sou3
+10	110000	211D	實數	sat6 sou3
+10	110000	2124	整數	zing2 sou3
+10	110000	2200	所有	so2 jau5
+10	110000	2203	存在	cyun4 zoi6
+10	110000	2204	唔存在	m4 cyun4 zoi6
+10	110000	2204	不存在	bat1 cyun4 zoi6
+10	110000	2205	空集	hung1 zaap6
+10	110000	2208	屬於	suk6 jyu1
+10	110000	2209	唔屬於	m4 suk6 jyu1
+10	110000	2209	不屬於	bat1 suk6 jyu1
+10	110000	2209	並非	bing6 fei1
+10	110000	220E	證畢	zing3 bat1
+10	110000	2212	減號	gaam2 hou6
+10	110000	2212	減	gaam2
+10	110000	2215	除號	ceoi4 hou6
 10	110000	221A	根號	gan1 hou6
 10	110000	221A	平方根	ping4 fong1 gan1
 10	110000	221A	方根	fong1 gan1
@@ -6222,37 +6233,42 @@
 10	110000	221C	四次根	sei3 ci3 gan1
 10	110000	221C	四次方根	sei3 ci3 fong1 gan1
 10	110000	221C	四次根號	sei3 ci3 gan1 hou6
-10	110000	221E	無窮大	mou4 kung4 daai6
+10	110000	221D	正比於	zing3 bei2 jyu1
 10	110000	221E	無窮	mou4 kung4
-10	110000	2235	因爲	jan1 wai6
-10	110000	2234	所以	so2 ji5
-10	110000	22C5	點乘	dim2 sing4
-10	110000	2A2F	叉乘	caa1 sing4
+10	110000	221E	無窮大	mou4 kung4 daai6
+10	110000	221F	直角	zik6 gok3
+10	110000	2220	角	gok3
+10	110000	2220	角度	gok3 dou6
 10	110000	222B	積分	zik1 fan1
 10	110000	222B	積分符號	zik1 fan1 fu4 hou6
 10	110000	222C	雙重積分	soeng1 cung4 zik1 fan1
 10	110000	222C	二重積分	ji6 cung4 zik1 fan1
 10	110000	222C	兩重積分	loeng2 cung4 zik1 fan1
 10	110000	222D	三重積分	saam1 cung4 zik1 fan1
-10	110000	2032	角分符號	gok3 fan1 fu4 hou6
-10	110000	2032	角分	gok3 fan1
-10	110000	2032	導數	dou6 sou3
-10	110000	2032	求導	kau4 dou6
-10	110000	2032	一階導數	jat1 gaai1 dou6 sou3
-10	110000	2032	一階導	jat1 gaai1 dou6
-10	110000	2033	角秒符號	gok3 miu5 fu4 hou6
-10	110000	2033	角秒	gok3 miu5
-10	110000	2033	二階導數	ji6 gaai1 dou6 sou3
-10	110000	2033	二階導	ji6 gaai1 dou6
-10	110000	221D	正比於	zing3 bei2 jyu1
-10	110000	2205	空集	hung1 zaap6
+10	110000	222E	路徑積分	lou6 ging3 zik1 fan1
+10	110000	222F	面積積分	min6 zik1 zik1 fan1
+10	110000	2230	體積積分	tai2 zik1 zik1 fan1
+10	110000	2234	所以	so2 ji5
+10	110000	2235	因爲	jan1 wai6
+10	110000	2248	約等號	joek3 dang2 hou6
+10	110000	2248	約等	joek3 dang2
+10	110000	2248	約等於	joek3 dang2 jyu1
+10	110000	2248	約等如	joek3 dang2 jyu4
+10	110000	2260	不等號	bat1 dang2 hou6
+10	110000	2260	不等	bat1 dang2
+10	110000	2260	唔等於	m4 dang2 jyu1
+10	110000	2260	唔等如	m4 dang2 jyu4
+10	110000	2260	不等於	bat1 dang2 jyu1
+10	110000	2260	不等如	bat1 dang2 jyu4
+10	110000	2264	小於等於	siu2 jyu1 dang2 jyu1
+10	110000	2264	小於或等於	siu2 jyu1 waak6 dang2 jyu1
+10	110000	2265	大於等於	daai6 jyu1 dang2 jyu1
+10	110000	2265	大於或等於	daai6 jyu1 waak6 dang2 jyu1
+10	110000	226A	遠小於	jyun5 siu2 jyu1
+10	110000	226B	遠大於	jyun5 daai6 jyu1
 10	110000	2295	異或	ji6 waak6
-10	110000	2115	自然數	zi6 jin4 sou3
-10	110000	2124	整數	zing2 sou3
-10	110000	211A	有理數	jau5 lei5 sou3
-10	110000	211D	實數	sat6 sou3
-10	110000	2102	複數	fuk1 sou3
-10	110000	B0	度	dou6
+10	110000	22C5	點乘	dim2 sing4
+10	110000	2A2F	叉乘	caa1 sing4
 10	110000	2669	四分音符	sei3 fan1 jam1 fu4
 10	110000	266A	八分音符	baat3 fan1 jam1 fu4
 10	110000	266A	音符	jam1 fu4

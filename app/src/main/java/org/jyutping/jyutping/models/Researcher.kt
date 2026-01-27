@@ -314,7 +314,7 @@ private fun Researcher.search(keys: List<VirtualInputKey>, segmentation: Segment
                 val tailKeys = keys.drop(headLength)
                 val tailSegmentation = Segmenter.segment(tailKeys, db)
                 val tailLexicon = search(keys = tailKeys, segmentation = tailSegmentation, limit = 50, db = db).firstOrNull() ?: return@mapNotNull null
-                val headLexicon = fetched.firstOrNull { it.inputCount == headLength } ?: return@mapNotNull null
+                val headLexicon = fetched.find { it.inputCount == headLength } ?: return@mapNotNull null
                 return@mapNotNull headLexicon + tailLexicon
         }.sorted().take(1)
         return concatenated + fetched

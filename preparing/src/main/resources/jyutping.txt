@@ -13956,7 +13956,7 @@
 繹	jik6
 徬	pong4
 俾	bei2
-庇	bei3
+臂	bei3
 勉	min5
 柏	baak3
 徵	zing1
@@ -19264,7 +19264,7 @@
 凌	ling4
 整到	zing2 dou2
 顫抖	zin3 dau2
-臂	bei3
+庇	bei3
 黑影	hak1 jing2
 孃親	noeng4 can1
 探員	taam3 jyun4
@@ -28564,7 +28564,13 @@
 預上屏	jyu6 soeng5 ping4
 預輸入	jyu6 syu1 jap6
 預選欄	jyu6 syun2 laan4
+預選框	jyu6 syun2 hong1
+預選框	jyu6 syun2 kwaang1
+預選窗	jyu6 syun2 coeng1
 候選欄	hau6 syun2 laan4
+候選框	hau6 syun2 hong1
+候選框	hau6 syun2 kwaang1
+候選窗	hau6 syun2 coeng1
 由佢	jau2 keoi5
 由佢啦	jau2 keoi5 laa1
 舔狗	tim2 gau2
@@ -29155,6 +29161,28 @@
 九週	gau2 zau1
 幾週	gei2 zau1
 十週	sap6 zau1
+一個星期	jat1 go3 sing1 kei4
+兩個星期	loeng5 go3 sing1 kei4
+三個星期	saam1 go3 sing1 kei4
+四個星期	sei3 go3 sing1 kei4
+五個星期	ng5 go3 sing1 kei4
+六個星期	luk6 go3 sing1 kei4
+七個星期	cat1 go3 sing1 kei4
+八個星期	baat3 go3 sing1 kei4
+九個星期	gau2 go3 sing1 kei4
+幾個星期	gei2 go3 sing1 kei4
+十個星期	sap6 go3 sing1 kei4
+一個禮拜	jat1 go3 lai5 baai3
+兩個禮拜	loeng5 go3 lai5 baai3
+三個禮拜	saam1 go3 lai5 baai3
+四個禮拜	sei3 go3 lai5 baai3
+五個禮拜	ng5 go3 lai5 baai3
+六個禮拜	luk6 go3 lai5 baai3
+七個禮拜	cat1 go3 lai5 baai3
+八個禮拜	baat3 go3 lai5 baai3
+九個禮拜	gau2 go3 lai5 baai3
+幾個禮拜	gei2 go3 lai5 baai3
+十個禮拜	sap6 go3 lai5 baai3
 初二	co1 ji6
 初四	co1 sei3
 初五	co1 ng5
@@ -32983,6 +33011,29 @@
 少話講	siu2 waa6 gong2
 咁少話講	gam3 siu2 waa6 gong2
 我見猶憐	ngo5 gin3 jau4 lin4
+進度條	zeon3 dou6 tiu4
+冇變過	mou5 bin3 gwo3
+冇改過	mou5 goi2 gwo3
+用慣	jung6 gwaan3
+用唔慣	jung6 m4 gwaan3
+使慣	sai2 gwaan3
+使唔慣	sai2 m4 gwaan3
+撳咗	gam6 zo2
+喇叭掣	laa3 baa1 zai3
+上圖	soeng6 tou4
+下圖	haa6 tou4
+上表	soeng6 biu2
+下表	haa6 biu2
+恆等於	hang4 dang2 jyu1
+恆等式	hang4 dang2 sik1
+撳入	gam6 jap6
+撳入去	gam6 jap6 heoi3
+撳入來	gam6 jap6 loi4
+係乜嘢	hai6 mat1 je5
+刪咗	saan1 zo2
+閂咗	saan1 zo2
+閂咗佢	saan1 zo2 keoi5
+直播間	zik6 bo3 gaan1
 頭頂光環	tau4 deng2 gwong1 waan4
 得意洋洋	dak1 ji3 joeng4 joeng4
 心心	sam1 sam1
@@ -35768,23 +35819,29 @@
 艮	gan3
 艮卦	gan3 gwaa3
 坤卦	kwan1 gwaa3
-約等號	joek3 dang2 hou6
-約等	joek3 dang2
-約等於	joek3 dang2 jyu1
-約等如	joek3 dang2 jyu4
-不等號	bat1 dang2 hou6
-唔等於	m4 dang2 jyu1
-唔等如	m4 dang2 jyu4
-不等於	bat1 dang2 jyu1
-不等如	bat1 dang2 jyu4
-小於等於	siu2 jyu1 dang2 jyu1
-小於或等於	siu2 jyu1 waak6 dang2 jyu1
-大於等於	daai6 jyu1 dang2 jyu1
-大於或等於	daai6 jyu1 waak6 dang2 jyu1
 加減	gaa1 gaam2
 加減號	gaa1 gaam2 hou6
 正負	zing3 fu6
 正負號	zing3 fu6 hou6
+角分符號	gok3 fan1 fu4 hou6
+角分	gok3 fan1
+導數	dou6 sou3
+求導	kau4 dou6
+一階導數	jat1 gaai1 dou6 sou3
+一階導	jat1 gaai1 dou6
+角秒符號	gok3 miu5 fu4 hou6
+角秒	gok3 miu5
+二階導數	ji6 gaai1 dou6 sou3
+二階導	ji6 gaai1 dou6
+自然數	zi6 jin4 sou3
+有理數	jau5 lei5 sou3
+實數	sat6 sou3
+唔存在	m4 cyun4 zoi6
+不存在	bat1 cyun4 zoi6
+空集	hung1 zaap6
+唔屬於	m4 suk6 jyu1
+不屬於	bat1 suk6 jyu1
+證畢	zing3 bat1
 根號	gan1 hou6
 平方根	ping4 fong1 gan1
 方根	fong1 gan1
@@ -35799,27 +35856,29 @@
 四次根	sei3 ci3 gan1
 四次方根	sei3 ci3 fong1 gan1
 四次根號	sei3 ci3 gan1 hou6
-點乘	dim2 sing4
-叉乘	caa1 sing4
 積分符號	zik1 fan1 fu4 hou6
 雙重積分	soeng1 cung4 zik1 fan1
 二重積分	ji6 cung4 zik1 fan1
 兩重積分	loeng2 cung4 zik1 fan1
 三重積分	saam1 cung4 zik1 fan1
-角分符號	gok3 fan1 fu4 hou6
-角分	gok3 fan1
-導數	dou6 sou3
-求導	kau4 dou6
-一階導數	jat1 gaai1 dou6 sou3
-一階導	jat1 gaai1 dou6
-角秒符號	gok3 miu5 fu4 hou6
-角秒	gok3 miu5
-二階導數	ji6 gaai1 dou6 sou3
-二階導	ji6 gaai1 dou6
-空集	hung1 zaap6
-自然數	zi6 jin4 sou3
-有理數	jau5 lei5 sou3
-實數	sat6 sou3
+路徑積分	lou6 ging3 zik1 fan1
+面積積分	min6 zik1 zik1 fan1
+體積積分	tai2 zik1 zik1 fan1
+約等號	joek3 dang2 hou6
+約等	joek3 dang2
+約等於	joek3 dang2 jyu1
+約等如	joek3 dang2 jyu4
+不等號	bat1 dang2 hou6
+唔等於	m4 dang2 jyu1
+唔等如	m4 dang2 jyu4
+不等於	bat1 dang2 jyu1
+不等如	bat1 dang2 jyu4
+小於等於	siu2 jyu1 dang2 jyu1
+小於或等於	siu2 jyu1 waak6 dang2 jyu1
+大於等於	daai6 jyu1 dang2 jyu1
+大於或等於	daai6 jyu1 waak6 dang2 jyu1
+點乘	dim2 sing4
+叉乘	caa1 sing4
 四分音符	sei3 fan1 jam1 fu4
 八分音符	baat3 fan1 jam1 fu4
 昇號	sing1 hou6
@@ -85253,7 +85312,6 @@
 數碼通	sou3 maa5 tung1
 打拍子	daa2 paak3 zi2
 打前站	daa2 cin4 zaam6
-恆等式	hang4 dang2 sik1
 急性病	gap1 sing3 beng6
 張若虛	zoeng1 joek6 heoi1
 小昭寺	siu2 ciu1 zi6
@@ -160242,7 +160300,6 @@
 山寨王	saan1 zaai6 wong2
 山鶺鴒	saan1 zek3 ling4
 山雉	saan1 zi6
-刪咗	saan1 zo2
 山竹果	saan1 zuk1 gwo2
 山竹牛肉	saan1 zuk1 ngau4 juk6
 山竹牛肉球	saan1 zuk1 ngau4 juk6 kau4
